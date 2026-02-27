@@ -1,0 +1,9 @@
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:[m[K In member function ‘[01m[Kint QuadTree::[01;32m[KgetTotalCorners[m[K() const[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:193:12:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst std::map<std::vector<int>, Point*>[m[K’ to ‘[01m[Kint[m[K’ in return
+  193 |     return [01;31m[KuniquePoints[m[K;
+      |            [01;31m[K^~~~~~~~~~~~[m[K
+      |            [01;31m[K|[m[K
+      |            [01;31m[Kconst std::map<std::vector<int>, Point*>[m[K
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:90: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

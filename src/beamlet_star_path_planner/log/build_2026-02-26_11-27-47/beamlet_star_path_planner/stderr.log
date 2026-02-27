@@ -1,0 +1,32 @@
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Beamlet.cpp:[m[K In member function ‘[01m[Kstd::__cxx11::list<Beamlet*> Beamlet::[01;32m[KGetNeighborBeamlets[m[K(BeamletGraph*)[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Beamlet.cpp:28:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KbeamletGraph[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   28 | std::list<Beamlet*> Beamlet::GetNeighborBeamlets([01;35m[KBeamletGraph* beamletGraph[m[K)
+      |                                                  [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:[m[K In member function ‘[01m[Kvoid BeamletGraph::[01;32m[KgenerateBeamlets[m[K(std::map<std::vector<int>, Point*>)[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:25:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::vector<Point*>::push_back(const std::vector<int>&)[m[K’
+   25 |         [01;31m[KpointList.push_back(kv.first)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/vector:66[m[K,
+                 from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:4[m[K,
+                 from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Beamlet.h:4[m[K,
+                 from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:11[m[K,
+                 from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:8[m[K:
+[01m[K/usr/include/c++/13/bits/stl_vector.h:1281:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid std::vector<_Tp, _Alloc>::[01;32m[Kpush_back[m[K(const value_type&) [35m[K[with _Tp = Point*; _Alloc = std::allocator<Point*>; value_type = Point*][m[K[m[K’
+ 1281 |       [01;36m[Kpush_back[m[K(const value_type& __x)
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:1281:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::vector<int>[m[K’ to ‘[01m[KPoint* const&[m[K’
+ 1281 |       push_back([01;36m[Kconst value_type& __x[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:1298:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid std::vector<_Tp, _Alloc>::[01;32m[Kpush_back[m[K(value_type&&) [35m[K[with _Tp = Point*; _Alloc = std::allocator<Point*>; value_type = Point*][m[K[m[K’
+ 1298 |       [01;36m[Kpush_back[m[K(value_type&& __x)
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_vector.h:1298:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::vector<int>[m[K’ to ‘[01m[KPoint*&&[m[K’
+ 1298 |       push_back([01;36m[Kvalue_type&& __x[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:33:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   33 |             Beamlet* [01;35m[Kb[m[K = new Beamlet(pointList[i], pointList[j]);
+      |                      [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:160: CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,7 @@
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:[m[K In member function ‘[01m[Kbool BeamletGraph::[01;32m[KisBeamletFeasibleBresenham[m[K(std::vector<std::vector<int> >&, Point*, Point*)[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:73:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   73 |         if (cy >= 0 && [01;35m[Kcy < grid.size()[m[K && cx >= 0 && cx < grid[0].size()) {
+      |                        [01;35m[K~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:73:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   73 |         if (cy >= 0 && cy < grid.size() && cx >= 0 && [01;35m[Kcx < grid[0].size()[m[K) {
+      |                                                       [01;35m[K~~~^~~~~~~~~~~~~~~~[m[K

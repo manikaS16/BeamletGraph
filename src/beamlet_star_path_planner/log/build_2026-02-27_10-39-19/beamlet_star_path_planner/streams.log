@@ -1,0 +1,10 @@
+[0.011s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.106s] [ 12%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o[0m
+[1.615s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:[m[K In member function ‘[01m[Kvoid BeamletGraph::[01;32m[KprintBeamlets[m[K() const[m[K’:
+[1.615s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:101:57:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K/[m[K’ token
+[1.615s]   101 |     std::filesystem::path filePath = cwd / BeamletGraph [01;31m[K/[m[K "beamlets.txt";
+[1.615s]       |                                                         [01;31m[K^[m[K
+[2.056s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:160: CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o] Error 1
+[2.057s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+[2.057s] gmake: *** [Makefile:146: all] Error 2
+[2.060s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12

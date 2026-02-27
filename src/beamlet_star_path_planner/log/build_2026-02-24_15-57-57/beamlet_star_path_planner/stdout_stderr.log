@@ -1,0 +1,15 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[ 40%] [32m[1mLinking CXX executable beamlet_star_node[0m
+/usr/bin/ld: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o: in function `BeamletStarNode::getOrCreatePoint(int, int)':
+beamlet_star_node.cpp:(.text._ZN15BeamletStarNode16getOrCreatePointEii[_ZN15BeamletStarNode16getOrCreatePointEii]+0x124): undefined reference to `Point::Point(std::vector<int, std::allocator<int> > const&)'
+/usr/bin/ld: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o: in function `BeamletStarNode::createBeamletsFromLeaves(std::vector<DyadicObject*, std::allocator<DyadicObject*> > const&)':
+beamlet_star_node.cpp:(.text._ZN15BeamletStarNode24createBeamletsFromLeavesERKSt6vectorIP12DyadicObjectSaIS2_EE[_ZN15BeamletStarNode24createBeamletsFromLeavesERKSt6vectorIP12DyadicObjectSaIS2_EE]+0x175): undefined reference to `Beamlet::Beamlet(Point*, Point*)'
+/usr/bin/ld: beamlet_star_node.cpp:(.text._ZN15BeamletStarNode24createBeamletsFromLeavesERKSt6vectorIP12DyadicObjectSaIS2_EE[_ZN15BeamletStarNode24createBeamletsFromLeavesERKSt6vectorIP12DyadicObjectSaIS2_EE]+0x1c2): undefined reference to `Beamlet::Beamlet(Point*, Point*)'
+/usr/bin/ld: beamlet_star_node.cpp:(.text._ZN15BeamletStarNode24createBeamletsFromLeavesERKSt6vectorIP12DyadicObjectSaIS2_EE[_ZN15BeamletStarNode24createBeamletsFromLeavesERKSt6vectorIP12DyadicObjectSaIS2_EE]+0x20f): undefined reference to `Beamlet::Beamlet(Point*, Point*)'
+/usr/bin/ld: beamlet_star_node.cpp:(.text._ZN15BeamletStarNode24createBeamletsFromLeavesERKSt6vectorIP12DyadicObjectSaIS2_EE[_ZN15BeamletStarNode24createBeamletsFromLeavesERKSt6vectorIP12DyadicObjectSaIS2_EE]+0x25c): undefined reference to `Beamlet::Beamlet(Point*, Point*)'
+/usr/bin/ld: beamlet_star_node.cpp:(.text._ZN15BeamletStarNode24createBeamletsFromLeavesERKSt6vectorIP12DyadicObjectSaIS2_EE[_ZN15BeamletStarNode24createBeamletsFromLeavesERKSt6vectorIP12DyadicObjectSaIS2_EE]+0x2a9): undefined reference to `Beamlet::Beamlet(Point*, Point*)'
+/usr/bin/ld: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o:beamlet_star_node.cpp:(.text._ZN15BeamletStarNode24createBeamletsFromLeavesERKSt6vectorIP12DyadicObjectSaIS2_EE[_ZN15BeamletStarNode24createBeamletsFromLeavesERKSt6vectorIP12DyadicObjectSaIS2_EE]+0x2f6): more undefined references to `Beamlet::Beamlet(Point*, Point*)' follow
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:211: beamlet_star_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

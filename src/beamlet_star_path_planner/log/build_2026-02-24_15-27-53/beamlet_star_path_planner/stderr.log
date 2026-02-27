@@ -1,0 +1,11 @@
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:12:34:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+   12 |     std::map<std::pair<int,int>, [01;31m[KPoint[m[K*> pointMap;
+      |                                  [01;31m[K^~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:12:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+   12 |     std::map<std::pair<int,int>, Point*[01;31m[K>[m[K pointMap;
+      |                                        [01;31m[K^[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:12:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:76: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

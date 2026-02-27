@@ -1,0 +1,22 @@
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:[m[K In member function ‘[01m[KPoint* BeamletStarNode::[01;32m[KgetOrCreatePoint[m[K(std::map<std::pair<int, int>, Point*>&, int, int)[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:87:33:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPoint::Point(std::pair<int, int>&)[m[K’
+   87 |         Point* p = new Point(key[01;31m[K)[m[K;
+      |                                 [01;31m[K^[m[K
+In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:5[m[K:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:30:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KPoint::[01;32m[KPoint[m[K(const std::vector<int>&)[m[K’
+   30 |         [01;36m[KPoint[m[K(const std::vector<int> & coordinates);
+      |         [01;36m[K^~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:30:40:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::pair<int, int>[m[K’ to ‘[01m[Kconst std::vector<int>&[m[K’
+   30 |         Point([01;36m[Kconst std::vector<int> & coordinates[m[K);
+      |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:29:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KPoint::[01;32m[KPoint[m[K()[m[K’
+   29 |         [01;36m[KPoint[m[K();
+      |         [01;36m[K^~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:29:9:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:16:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KPoint::[01;32m[KPoint[m[K(const Point&)[m[K’
+   16 | class [01;36m[KPoint[m[K
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:16:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::pair<int, int>[m[K’ to ‘[01m[Kconst Point&[m[K’
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:76: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

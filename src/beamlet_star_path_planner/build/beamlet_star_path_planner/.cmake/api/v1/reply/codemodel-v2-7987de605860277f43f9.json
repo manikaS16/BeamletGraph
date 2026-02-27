@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e44e8c36d62253ab99f7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "beamlet_star_path_planner",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "beamlet_star_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-beamlet_star_node-4f41ce39504bed6f03b3.json",
+					"name" : "beamlet_star_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "beamlet_star_path_planner_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-beamlet_star_path_planner_uninstall-cf56ce79484d78cfb5a2.json",
+					"name" : "beamlet_star_path_planner_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f3101a0e3c369d44c7b5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner",
+		"source" : "/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

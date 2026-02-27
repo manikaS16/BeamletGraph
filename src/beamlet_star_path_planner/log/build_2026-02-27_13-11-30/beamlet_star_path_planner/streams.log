@@ -1,0 +1,126 @@
+[0.009s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.094s] [ 25%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o[0m
+[0.094s] [ 25%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/Beamlet.cpp.o[0m
+[0.097s] [ 37%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[0.098s] [ 50%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o[0m
+[0.100s] [ 62%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/Point.cpp.o[0m
+[0.432s] In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:13[m[K,
+[0.432s]                  from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:9[m[K,
+[0.432s]                  from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Beamlet.h:4[m[K,
+[0.432s]                  from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Beamlet.cpp:1[m[K:
+[0.432s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:20:32:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+[0.432s]    20 |     std::map<std::vector<int>, [01;31m[KPoint[m[K*> uniquePoints;
+[0.432s]       |                                [01;31m[K^~~~~[m[K
+[0.432s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:20:38:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[0.432s]    20 |     std::map<std::vector<int>, Point*[01;31m[K>[m[K uniquePoints;
+[0.432s]       |                                      [01;31m[K^[m[K
+[0.433s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:20:38:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[0.434s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:40:32:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+[0.434s]    40 |     std::map<std::vector<int>, [01;31m[KPoint[m[K*> getUniqueLeafPoints() const;
+[0.434s]       |                                [01;31m[K^~~~~[m[K
+[0.434s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:40:38:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[0.434s]    40 |     std::map<std::vector<int>, Point*[01;31m[K>[m[K getUniqueLeafPoints() const;
+[0.434s]       |                                      [01;31m[K^[m[K
+[0.434s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:40:38:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[0.436s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:42:55:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+[0.436s]    42 |     void printUniquePoints(std::map<std::vector<int>, [01;31m[KPoint[m[K*>& pointMap) const;
+[0.436s]       |                                                       [01;31m[K^~~~~[m[K
+[0.436s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:42:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[0.436s]    42 |     void printUniquePoints(std::map<std::vector<int>, Point*[01;31m[K>[m[K& pointMap) const;
+[0.436s]       |                                                             [01;31m[K^[m[K
+[0.436s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:42:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[0.438s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:42:55:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+[0.438s]    42 |     void printUniquePoints(std::map<std::vector<int>, [01;31m[KPoint[m[K*>& pointMap) const;
+[0.438s]       |                                                       [01;31m[K^~~~~[m[K
+[0.438s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:42:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[0.438s]    42 |     void printUniquePoints(std::map<std::vector<int>, Point*[01;31m[K>[m[K& pointMap) const;
+[0.439s]       |                                                             [01;31m[K^[m[K
+[0.439s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:42:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[0.440s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:42:55:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+[0.440s]    42 |     void printUniquePoints(std::map<std::vector<int>, [01;31m[KPoint[m[K*>& pointMap) const;
+[0.440s]       |                                                       [01;31m[K^~~~~[m[K
+[0.440s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:42:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[0.440s]    42 |     void printUniquePoints(std::map<std::vector<int>, Point*[01;31m[K>[m[K& pointMap) const;
+[0.441s]       |                                                             [01;31m[K^[m[K
+[0.441s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:42:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[0.441s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:42:28:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[0.441s]    42 |     void printUniquePoints([01;31m[Kstd[m[K::map<std::vector<int>, Point*>& pointMap) const;
+[0.441s]       |                            [01;31m[K^~~[m[K
+[0.442s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:42:55:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+[0.442s]    42 |     void printUniquePoints(std::map<std::vector<int>, [01;31m[KPoint[m[K*>& pointMap) const;
+[0.442s]       |                                                       [01;31m[K^~~~~[m[K
+[0.442s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:42:61:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[0.443s]    42 |     void printUniquePoints(std::map<std::vector<int>, Point*[01;31m[K>[m[K& pointMap) const;
+[0.443s]       |                                                             [01;31m[K^[m[K
+[0.443s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:42:28:[m[K [01;31m[Kerror: [m[Kmissing template argument list after ‘[01m[Kstd::map[m[K’; template placeholder not permitted in parameter
+[0.443s]    42 |     void printUniquePoints([01;31m[Kstd[m[K::map<std::vector<int>, Point*>& pointMap) const;
+[0.443s]       |                            [01;31m[K^~~[m[K
+[0.443s]       |                               [32m[K<>[m[K
+[0.443s] In file included from [01m[K/usr/include/c++/13/map:63[m[K,
+[0.443s]                  from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:8[m[K:
+[0.443s] [01m[K/usr/include/c++/13/bits/stl_map.h:102:11:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> class std::map[m[K’ declared here
+[0.443s]   102 |     class [01;36m[Kmap[m[K
+[0.444s]       |           [01;36m[K^~~[m[K
+[0.444s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:21:17:[m[K [01;31m[Kerror: [m[K‘[01m[KBeamlet[m[K’ was not declared in this scope
+[0.444s]    21 |     std::vector<[01;31m[KBeamlet[m[K*> beamlets;
+[0.445s]       |                 [01;31m[K^~~~~~~[m[K
+[0.445s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:21:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.445s]    21 |     std::vector<Beamlet*[01;31m[K>[m[K beamlets;
+[0.445s]       |                         [01;31m[K^[m[K
+[0.445s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:21:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[0.447s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:26:96:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+[0.447s]    26 |     void generateBeamlets(std::vector<std::vector<int>> grid, const std::map<std::vector<int>, [01;31m[KPoint[m[K*>& points);
+[0.447s]       |                                                                                                [01;31m[K^~~~~[m[K
+[0.447s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:26:102:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[0.447s]    26 |     void generateBeamlets(std::vector<std::vector<int>> grid, const std::map<std::vector<int>, Point*[01;31m[K>[m[K& points);
+[0.447s]       |                                                                                                      [01;31m[K^[m[K
+[0.447s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:26:102:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[0.449s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:26:96:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+[0.449s]    26 |     void generateBeamlets(std::vector<std::vector<int>> grid, const std::map<std::vector<int>, [01;31m[KPoint[m[K*>& points);
+[0.449s]       |                                                                                                [01;31m[K^~~~~[m[K
+[0.449s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:26:102:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[0.449s]    26 |     void generateBeamlets(std::vector<std::vector<int>> grid, const std::map<std::vector<int>, Point*[01;31m[K>[m[K& points);
+[0.449s]       |                                                                                                      [01;31m[K^[m[K
+[0.449s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:26:102:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[0.451s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:26:96:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+[0.451s]    26 |     void generateBeamlets(std::vector<std::vector<int>> grid, const std::map<std::vector<int>, [01;31m[KPoint[m[K*>& points);
+[0.451s]       |                                                                                                [01;31m[K^~~~~[m[K
+[0.451s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:26:102:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[0.452s]    26 |     void generateBeamlets(std::vector<std::vector<int>> grid, const std::map<std::vector<int>, Point*[01;31m[K>[m[K& points);
+[0.452s]       |                                                                                                      [01;31m[K^[m[K
+[0.452s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:26:102:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[0.452s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:26:69:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[0.452s]    26 |     void generateBeamlets(std::vector<std::vector<int>> grid, const [01;31m[Kstd[m[K::map<std::vector<int>, Point*>& points);
+[0.452s]       |                                                                     [01;31m[K^~~[m[K
+[0.453s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:26:96:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+[0.454s]    26 |     void generateBeamlets(std::vector<std::vector<int>> grid, const std::map<std::vector<int>, [01;31m[KPoint[m[K*>& points);
+[0.454s]       |                                                                                                [01;31m[K^~~~~[m[K
+[0.454s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:26:102:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[0.454s]    26 |     void generateBeamlets(std::vector<std::vector<int>> grid, const std::map<std::vector<int>, Point*[01;31m[K>[m[K& points);
+[0.454s]       |                                                                                                      [01;31m[K^[m[K
+[0.454s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:26:63:[m[K [01;31m[Kerror: [m[Kmissing template argument list after ‘[01m[Kstd::map[m[K’; template placeholder not permitted in parameter
+[0.454s]    26 |     void generateBeamlets(std::vector<std::vector<int>> grid, [01;31m[Kconst[m[K std::map<std::vector<int>, Point*>& points);
+[0.454s]       |                                                               [01;31m[K^~~~~[m[K
+[0.454s]       |                                                                    [32m[K<>[m[K
+[0.454s] [01m[K/usr/include/c++/13/bits/stl_map.h:102:11:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> class std::map[m[K’ declared here
+[0.455s]   102 |     class [01;36m[Kmap[m[K
+[0.455s]       |           [01;36m[K^~~[m[K
+[0.456s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:30:23:[m[K [01;31m[Kerror: [m[K‘[01m[KBeamlet[m[K’ was not declared in this scope; did you mean ‘[01m[Kbeamlets[m[K’?
+[0.456s]    30 |     const std::vector<[01;31m[KBeamlet[m[K*>& getBeamlets() const;
+[0.456s]       |                       [01;31m[K^~~~~~~[m[K
+[0.456s]       |                       [32m[Kbeamlets[m[K
+[0.456s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:30:31:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.456s]    30 |     const std::vector<Beamlet*[01;31m[K>[m[K& getBeamlets() const;
+[0.456s]       |                               [01;31m[K^[m[K
+[0.456s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:30:31:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[0.457s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:32:65:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ has not been declared
+[0.457s]    32 |     bool isBeamletFeasible(std::vector<std::vector<int>>& grid, [01;31m[KPoint[m[K* p1, Point* p2);
+[0.457s]       |                                                                 [01;31m[K^~~~~[m[K
+[0.457s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:32:76:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ has not been declared
+[0.457s]    32 |     bool isBeamletFeasible(std::vector<std::vector<int>>& grid, Point* p1, [01;31m[KPoint[m[K* p2);
+[0.457s]       |                                                                            [01;31m[K^~~~~[m[K
+[0.626s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:132: CMakeFiles/beamlet_star_node.dir/src/Beamlet.cpp.o] Error 1
+[0.626s] gmake[2]: *** Waiting for unfinished jobs....
+[2.970s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+[2.970s] gmake: *** [Makefile:146: all] Error 2
+[2.973s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12

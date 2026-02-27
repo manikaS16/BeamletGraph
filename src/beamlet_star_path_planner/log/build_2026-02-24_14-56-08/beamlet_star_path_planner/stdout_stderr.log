@@ -1,0 +1,19 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o[0m
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:[m[K In lambda function:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:73:34:[m[K [01;31m[Kerror: [m[K‘[01m[KbeamletGraph[m[K’ was not declared in this scope; did you mean ‘[01m[KBeamletGraph[m[K’?
+   73 |                 for(auto be : b) [01;31m[KbeamletGraph[m[K.AddBeamlet(be);
+      |                                  [01;31m[K^~~~~~~~~~~~[m[K
+      |                                  [32m[KBeamletGraph[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:1[m[K:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:[m[K In constructor ‘[01m[KBeamletStarNode::[01;32m[KBeamletStarNode[m[K()[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:79:66:[m[K [01;31m[Kerror: [m[K‘[01m[KbeamletGraph[m[K’ was not declared in this scope; did you mean ‘[01m[KBeamletGraph[m[K’?
+   79 |         RCLCPP_INFO(get_logger(), "Total beamlets created: %ld", [01;31m[KbeamletGraph[m[K.allBeamlets.size());
+      |                                                                  [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:76: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

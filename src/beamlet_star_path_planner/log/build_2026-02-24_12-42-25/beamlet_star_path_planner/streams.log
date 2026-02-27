@@ -1,0 +1,36 @@
+[0.015s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.052s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.395s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.448s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.463s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.480s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.592s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.594s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.693s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.791s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.932s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.932s] -- Configured cppcheck include dirs: /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include
+[0.932s] -- Configured cppcheck exclude dirs and/or files: 
+[0.935s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.935s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.939s] -- Added test 'lint_cmake' to check CMake code style
+[0.942s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.959s] -- Added test 'uncrustify' to check C / C++ code style
+[0.960s] -- Configured uncrustify additional arguments: 
+[0.962s] -- Added test 'xmllint' to check XML markup files
+[0.963s] -- Configuring done (0.9s)
+[0.975s] -- Generating done (0.0s)
+[0.979s] -- Build files have been written to: /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner
+[1.057s] [ 33%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/DyadicObject.cpp.o[0m
+[1.057s] [ 33%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/Key.cpp.o[0m
+[1.281s] [ 50%] [32m[1mLinking CXX executable beamlet_star_node[0m
+[1.308s] /usr/bin/ld: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o: in function `QuadTreeNode::QuadTreeNode(int, int, int)':
+[1.308s] quadtree.cpp:(.text+0x0): multiple definition of `QuadTreeNode::QuadTreeNode(int, int, int)'; CMakeFiles/beamlet_star_node.dir/src/quadtree_node.cpp.o:quadtree_node.cpp:(.text+0x0): first defined here
+[1.308s] /usr/bin/ld: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o: in function `QuadTreeNode::QuadTreeNode(int, int, int)':
+[1.308s] quadtree.cpp:(.text+0x0): multiple definition of `QuadTreeNode::QuadTreeNode(int, int, int)'; CMakeFiles/beamlet_star_node.dir/src/quadtree_node.cpp.o:quadtree_node.cpp:(.text+0x0): first defined here
+[1.437s] collect2: error: ld returned 1 exit status
+[1.440s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:227: beamlet_star_node] Error 1
+[1.440s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+[1.440s] gmake: *** [Makefile:146: all] Error 2
+[1.444s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12

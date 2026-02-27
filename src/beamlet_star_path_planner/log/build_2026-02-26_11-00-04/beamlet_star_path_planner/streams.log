@@ -1,0 +1,31 @@
+[0.010s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.092s] [ 12%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o[0m
+[0.094s] [ 37%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[0.095s] [ 50%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o[0m
+[0.095s] [ 62%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/Point.cpp.o[0m
+[0.095s] [ 62%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/Beamlet.cpp.o[0m
+[0.301s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Beamlet.cpp:[m[K In member function ‘[01m[Kstd::__cxx11::list<Beamlet*> Beamlet::[01;32m[KGetNeighborBeamlets[m[K(BeamletGraph*)[m[K’:
+[0.301s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Beamlet.cpp:25:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KbeamletGraph[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.301s]    25 | std::list<Beamlet*> Beamlet::GetNeighborBeamlets([01;35m[KBeamletGraph* beamletGraph[m[K)
+[0.302s]       |                                                  [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[2.552s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Point.cpp:140:70:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kvoid[01;32m[K printUniquePoints[m[K(std::map<std::vector<int>, Point*>&)[m[K’ cannot have cv-qualifier
+[2.552s]   140 | void printUniquePoints(std::map<std::vector<int>, Point*>& pointMap) [01;31m[Kconst[m[K{
+[2.552s]       |                                                                      [01;31m[K^~~~~[m[K
+[2.553s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[2.553s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[2.553s]                  from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Point.cpp:5[m[K:
+[2.553s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Point.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K printUniquePoints[m[K(std::map<std::vector<int>, Point*>&)[m[K’:
+[2.553s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Point.cpp:146:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[2.553s]   146 |                 [01;31m[Kget_logger[m[K(),
+[2.553s]       |                 [01;31m[K^~~~~~~~~~[m[K
+[2.554s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:26[m[K:
+[2.554s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[2.554s]   107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[2.554s]       |                 [01;36m[K^~~~~~[m[K
+[2.554s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Point.cpp:145:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.554s]   145 |             [01;31m[KRCLCPP_INFO[m[K(
+[2.554s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[3.009s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:146: CMakeFiles/beamlet_star_node.dir/src/Point.cpp.o] Error 1
+[3.009s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+[3.009s] gmake: *** [Makefile:146: all] Error 2
+[3.012s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12

@@ -1,0 +1,4 @@
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:[m[K In member function ‘[01m[Kvoid BeamletGraph::[01;32m[KgenerateBeamlets[m[K(std::map<std::vector<int>, Point*>)[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:33:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   33 |             Beamlet* [01;35m[Kb[m[K = new Beamlet(pointList[i], pointList[j]);
+      |                      [01;35m[K^[m[K

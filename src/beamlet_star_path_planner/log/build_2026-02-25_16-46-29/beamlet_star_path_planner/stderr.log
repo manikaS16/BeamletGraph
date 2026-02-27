@@ -1,0 +1,24 @@
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:161:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid QuadTree::[01;32m[KgenerateUniqueLeafPoints[m[K()[m[K’
+  161 | void [01;31m[KQuadTree[m[K::generateUniqueLeafPoints()
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:3[m[K:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:37:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid QuadTree::[01;32m[KgenerateUniqueLeafPoints[m[K(std::map<std::vector<int>, Point*>&)[m[K’
+   37 |     void [01;36m[KgenerateUniqueLeafPoints[m[K(std::map<std::vector<int>, Point*>& pointMap);
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass QuadTree[m[K’ defined here
+    9 | class [01;36m[KQuadTree[m[K
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:[m[K In constructor ‘[01m[KBeamletStarNode::[01;32m[KBeamletStarNode[m[K()[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:78:36:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KQuadTree::generateUniqueLeafPoints()[m[K’
+   78 |         [01;31m[Kqt.generateUniqueLeafPoints()[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:2[m[K:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:37:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid QuadTree::[01;32m[KgenerateUniqueLeafPoints[m[K(std::map<std::vector<int>, Point*>&)[m[K’
+   37 |     void [01;36m[KgenerateUniqueLeafPoints[m[K(std::map<std::vector<int>, Point*>& pointMap);
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:37:10:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:90: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:76: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

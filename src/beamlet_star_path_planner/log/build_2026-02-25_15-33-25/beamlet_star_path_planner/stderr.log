@@ -1,0 +1,7 @@
+/usr/bin/ld: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o: in function `BeamletStarNode::BeamletStarNode()':
+beamlet_star_node.cpp:(.text._ZN15BeamletStarNodeC2Ev[_ZN15BeamletStarNodeC5Ev]+0x118c): undefined reference to `QuadTree::~QuadTree()'
+/usr/bin/ld: beamlet_star_node.cpp:(.text._ZN15BeamletStarNodeC2Ev[_ZN15BeamletStarNodeC5Ev]+0x1653): undefined reference to `QuadTree::~QuadTree()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:259: beamlet_star_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

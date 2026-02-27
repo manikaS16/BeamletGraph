@@ -1,0 +1,25 @@
+[0.009s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.097s] [ 12%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[0.097s] [ 25%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o[0m
+[0.368s] In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:8[m[K:
+[0.368s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:36:35:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KBeamletGraph::[m[K’ on member ‘[01m[KgetBeamletCellsRuntime[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[0.368s]    36 |     std::vector<std::vector<int>> [01;31m[KBeamletGraph[m[K::getBeamletCellsRuntime(
+[0.368s]       |                                   [01;31m[K^~~~~~~~~~~~[m[K
+[1.553s] In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:7[m[K:
+[1.553s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:36:35:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KBeamletGraph::[m[K’ on member ‘[01m[KgetBeamletCellsRuntime[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.553s]    36 |     std::vector<std::vector<int>> [01;31m[KBeamletGraph[m[K::getBeamletCellsRuntime(
+[1.553s]       |                                   [01;31m[K^~~~~~~~~~~~[m[K
+[1.559s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:[m[K In constructor ‘[01m[KBeamletStarNode::[01;32m[KBeamletStarNode[m[K()[m[K’:
+[1.559s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:98:59:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBeamletGraph::getBeamletCellsRuntime(std::vector<std::vector<int> >&, std::vector<int>&, std::vector<int>&)[m[K’
+[1.559s]    98 |         auto traversedCells = [01;31m[Kgraph.getBeamletCellsRuntime(grid, start, end)[m[K;
+[1.560s]       |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[1.560s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:36:35:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<std::vector<int> > BeamletGraph::[01;32m[KgetBeamletCellsRuntime[m[K(const std::vector<int>&, const std::vector<int>&)[m[K’
+[1.560s]    36 |     std::vector<std::vector<int>> [01;36m[KBeamletGraph[m[K::getBeamletCellsRuntime(
+[1.560s]       |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[1.560s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:36:35:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[2.002s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:76: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o] Error 1
+[2.002s] gmake[2]: *** Waiting for unfinished jobs....
+[2.057s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:160: CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o] Error 1
+[2.057s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+[2.057s] gmake: *** [Makefile:146: all] Error 2
+[2.059s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12

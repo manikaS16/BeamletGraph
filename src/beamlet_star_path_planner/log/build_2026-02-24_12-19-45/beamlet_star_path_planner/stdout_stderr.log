@@ -1,0 +1,113 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:1[m[K:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:18:97:[m[K [01;31m[Kerror: [m[K‘[01m[Kgrid[m[K’ is not a type
+   18 |     QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, double alpha), grid([01;31m[Kgrid[m[K), rows(rows), cols(cols), alpha(alpha) {}
+      |                                                                                                 [01;31m[K^~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:18:92:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kgrid[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   18 |     QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, double alpha), [01;31m[Kgrid[m[K(grid), rows(rows), cols(cols), alpha(alpha) {}
+      |                                                                                            [01;31m[K^~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:18:102:[m[K [01;31m[Kerror: [m[K‘[01m[Kint QuadTree::[01;32m[Kgrid[m[K(int)[m[K’ conflicts with a previous declaration
+   18 |     QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, double alpha), grid(grid)[01;31m[K,[m[K rows(rows), cols(cols), alpha(alpha) {}
+      |                                                                                                      [01;31m[K^[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:11:35:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kstd::vector<std::vector<int> > QuadTree::grid[m[K’
+   11 |     std::vector<std::vector<int>> [01;36m[Kgrid[m[K;
+      |                                   [01;36m[K^~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:18:109:[m[K [01;31m[Kerror: [m[K‘[01m[Krows[m[K’ is not a type
+   18 |     QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, double alpha), grid(grid), rows([01;31m[Krows[m[K), cols(cols), alpha(alpha) {}
+      |                                                                                                             [01;31m[K^~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:18:104:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Krows[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   18 |     QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, double alpha), grid(grid), [01;31m[Krows[m[K(rows), cols(cols), alpha(alpha) {}
+      |                                                                                                        [01;31m[K^~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:18:114:[m[K [01;31m[Kerror: [m[K‘[01m[Kint QuadTree::[01;32m[Krows[m[K(int)[m[K’ conflicts with a previous declaration
+   18 |     QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, double alpha), grid(grid), rows(rows)[01;31m[K,[m[K cols(cols), alpha(alpha) {}
+      |                                                                                                                  [01;31m[K^[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:12:9:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint QuadTree::rows[m[K’
+   12 |     int [01;36m[Krows[m[K;
+      |         [01;36m[K^~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:18:121:[m[K [01;31m[Kerror: [m[K‘[01m[Kcols[m[K’ is not a type
+   18 |     QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, double alpha), grid(grid), rows(rows), cols([01;31m[Kcols[m[K), alpha(alpha) {}
+      |                                                                                                                         [01;31m[K^~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:18:116:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kcols[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   18 |     QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, double alpha), grid(grid), rows(rows), [01;31m[Kcols[m[K(cols), alpha(alpha) {}
+      |                                                                                                                    [01;31m[K^~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:18:126:[m[K [01;31m[Kerror: [m[K‘[01m[Kint QuadTree::[01;32m[Kcols[m[K(int)[m[K’ conflicts with a previous declaration
+   18 |     QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, double alpha), grid(grid), rows(rows), cols(cols)[01;31m[K,[m[K alpha(alpha) {}
+      |                                                                                                                              [01;31m[K^[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:13:9:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint QuadTree::cols[m[K’
+   13 |     int [01;36m[Kcols[m[K;
+      |         [01;36m[K^~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:18:134:[m[K [01;31m[Kerror: [m[K‘[01m[Kalpha[m[K’ is not a type
+   18 |     QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, double alpha), grid(grid), rows(rows), cols(cols), alpha([01;31m[Kalpha[m[K) {}
+      |                                                                                                                                      [01;31m[K^~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:18:128:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kalpha[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   18 |     QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, double alpha), grid(grid), rows(rows), cols(cols), [01;31m[Kalpha[m[K(alpha) {}
+      |                                                                                                                                [01;31m[K^~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:18:142:[m[K [01;31m[Kerror: [m[K‘[01m[Kint QuadTree::[01;32m[Kalpha[m[K(int)[m[K’ conflicts with a previous declaration
+   18 |     QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, double alpha), grid(grid), rows(rows), cols(cols), alpha(alpha) {[01;31m[K}[m[K
+      |                                                                                                                                              [01;31m[K^[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:14:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble QuadTree::alpha[m[K’
+   14 |     double [01;36m[Kalpha[m[K;
+      |            [01;36m[K^~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:[m[K In member function ‘[01m[Kint QuadTree::[01;32m[Kalpha[m[K(int)[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:18:142:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   18 |     QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, double alpha), grid(grid), rows(rows), cols(cols), alpha(alpha) {[01;35m[K}[m[K
+      |                                                                                                                                              [01;35m[K^[m[K
+In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:3[m[K:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:18:97:[m[K [01;31m[Kerror: [m[K‘[01m[Kgrid[m[K’ is not a type
+   18 |     QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, double alpha), grid([01;31m[Kgrid[m[K), rows(rows), cols(cols), alpha(alpha) {}
+      |                                                                                                 [01;31m[K^~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:18:92:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kgrid[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   18 |     QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, double alpha), [01;31m[Kgrid[m[K(grid), rows(rows), cols(cols), alpha(alpha) {}
+      |                                                                                            [01;31m[K^~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:18:102:[m[K [01;31m[Kerror: [m[K‘[01m[Kint QuadTree::[01;32m[Kgrid[m[K(int)[m[K’ conflicts with a previous declaration
+   18 |     QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, double alpha), grid(grid)[01;31m[K,[m[K rows(rows), cols(cols), alpha(alpha) {}
+      |                                                                                                      [01;31m[K^[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:11:35:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kstd::vector<std::vector<int> > QuadTree::grid[m[K’
+   11 |     std::vector<std::vector<int>> [01;36m[Kgrid[m[K;
+      |                                   [01;36m[K^~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:18:109:[m[K [01;31m[Kerror: [m[K‘[01m[Krows[m[K’ is not a type
+   18 |     QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, double alpha), grid(grid), rows([01;31m[Krows[m[K), cols(cols), alpha(alpha) {}
+      |                                                                                                             [01;31m[K^~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:18:104:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Krows[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   18 |     QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, double alpha), grid(grid), [01;31m[Krows[m[K(rows), cols(cols), alpha(alpha) {}
+      |                                                                                                        [01;31m[K^~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:18:114:[m[K [01;31m[Kerror: [m[K‘[01m[Kint QuadTree::[01;32m[Krows[m[K(int)[m[K’ conflicts with a previous declaration
+   18 |     QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, double alpha), grid(grid), rows(rows)[01;31m[K,[m[K cols(cols), alpha(alpha) {}
+      |                                                                                                                  [01;31m[K^[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:12:9:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint QuadTree::rows[m[K’
+   12 |     int [01;36m[Krows[m[K;
+      |         [01;36m[K^~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:18:121:[m[K [01;31m[Kerror: [m[K‘[01m[Kcols[m[K’ is not a type
+   18 |     QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, double alpha), grid(grid), rows(rows), cols([01;31m[Kcols[m[K), alpha(alpha) {}
+      |                                                                                                                         [01;31m[K^~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:18:116:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kcols[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   18 |     QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, double alpha), grid(grid), rows(rows), [01;31m[Kcols[m[K(cols), alpha(alpha) {}
+      |                                                                                                                    [01;31m[K^~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:18:126:[m[K [01;31m[Kerror: [m[K‘[01m[Kint QuadTree::[01;32m[Kcols[m[K(int)[m[K’ conflicts with a previous declaration
+   18 |     QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, double alpha), grid(grid), rows(rows), cols(cols)[01;31m[K,[m[K alpha(alpha) {}
+      |                                                                                                                              [01;31m[K^[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:13:9:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint QuadTree::cols[m[K’
+   13 |     int [01;36m[Kcols[m[K;
+      |         [01;36m[K^~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:18:134:[m[K [01;31m[Kerror: [m[K‘[01m[Kalpha[m[K’ is not a type
+   18 |     QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, double alpha), grid(grid), rows(rows), cols(cols), alpha([01;31m[Kalpha[m[K) {}
+      |                                                                                                                                      [01;31m[K^~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:18:128:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kalpha[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   18 |     QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, double alpha), grid(grid), rows(rows), cols(cols), [01;31m[Kalpha[m[K(alpha) {}
+      |                                                                                                                                [01;31m[K^~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:18:142:[m[K [01;31m[Kerror: [m[K‘[01m[Kint QuadTree::[01;32m[Kalpha[m[K(int)[m[K’ conflicts with a previous declaration
+   18 |     QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, double alpha), grid(grid), rows(rows), cols(cols), alpha(alpha) {[01;31m[K}[m[K
+      |                                                                                                                                              [01;31m[K^[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:14:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble QuadTree::alpha[m[K’
+   14 |     double [01;36m[Kalpha[m[K;
+      |            [01;36m[K^~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:[m[K In member function ‘[01m[Kint QuadTree::[01;32m[Kalpha[m[K(int)[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:18:142:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   18 |     QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, double alpha), grid(grid), rows(rows), cols(cols), alpha(alpha) {[01;35m[K}[m[K
+      |                                                                                                                                              [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:76: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:118: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,29 @@
+[0.010s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.101s] [ 12%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o[0m
+[0.343s] [ 25%] [32m[1mLinking CXX executable beamlet_star_node[0m
+[0.460s] [100%] Built target beamlet_star_node
+[0.471s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.488s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner
+[0.501s] -- Install configuration: ""
+[0.501s] -- Installing: /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/install/beamlet_star_path_planner/lib/beamlet_star_path_planner/beamlet_star_node
+[0.502s] -- Set non-toolchain portion of runtime path of "/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/install/beamlet_star_path_planner/lib/beamlet_star_path_planner/beamlet_star_node" to ""
+[0.502s] -- Up-to-date: /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/install/beamlet_star_path_planner/share/beamlet_star_path_planner/config
+[0.502s] -- Up-to-date: /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/install/beamlet_star_path_planner/share/beamlet_star_path_planner/config/grid.yaml
+[0.502s] -- Up-to-date: /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/install/beamlet_star_path_planner/share/beamlet_star_path_planner/launch
+[0.502s] -- Up-to-date: /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/install/beamlet_star_path_planner/share/beamlet_star_path_planner/launch/run.launch.py
+[0.502s] -- Up-to-date: /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/install/beamlet_star_path_planner/share/ament_index/resource_index/package_run_dependencies/beamlet_star_path_planner
+[0.503s] -- Up-to-date: /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/install/beamlet_star_path_planner/share/ament_index/resource_index/parent_prefix_path/beamlet_star_path_planner
+[0.503s] -- Up-to-date: /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/install/beamlet_star_path_planner/share/beamlet_star_path_planner/environment/ament_prefix_path.sh
+[0.503s] -- Up-to-date: /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/install/beamlet_star_path_planner/share/beamlet_star_path_planner/environment/ament_prefix_path.dsv
+[0.503s] -- Up-to-date: /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/install/beamlet_star_path_planner/share/beamlet_star_path_planner/environment/path.sh
+[0.503s] -- Up-to-date: /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/install/beamlet_star_path_planner/share/beamlet_star_path_planner/environment/path.dsv
+[0.503s] -- Up-to-date: /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/install/beamlet_star_path_planner/share/beamlet_star_path_planner/local_setup.bash
+[0.503s] -- Up-to-date: /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/install/beamlet_star_path_planner/share/beamlet_star_path_planner/local_setup.sh
+[0.503s] -- Up-to-date: /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/install/beamlet_star_path_planner/share/beamlet_star_path_planner/local_setup.zsh
+[0.503s] -- Up-to-date: /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/install/beamlet_star_path_planner/share/beamlet_star_path_planner/local_setup.dsv
+[0.503s] -- Installing: /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/install/beamlet_star_path_planner/share/beamlet_star_path_planner/package.dsv
+[0.503s] -- Up-to-date: /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/install/beamlet_star_path_planner/share/ament_index/resource_index/packages/beamlet_star_path_planner
+[0.504s] -- Up-to-date: /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/install/beamlet_star_path_planner/share/beamlet_star_path_planner/cmake/beamlet_star_path_plannerConfig.cmake
+[0.504s] -- Up-to-date: /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/install/beamlet_star_path_planner/share/beamlet_star_path_planner/cmake/beamlet_star_path_plannerConfig-version.cmake
+[0.504s] -- Up-to-date: /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/install/beamlet_star_path_planner/share/beamlet_star_path_planner/package.xml
+[0.506s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner

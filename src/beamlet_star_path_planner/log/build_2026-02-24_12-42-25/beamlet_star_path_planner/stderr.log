@@ -1,0 +1,8 @@
+/usr/bin/ld: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o: in function `QuadTreeNode::QuadTreeNode(int, int, int)':
+quadtree.cpp:(.text+0x0): multiple definition of `QuadTreeNode::QuadTreeNode(int, int, int)'; CMakeFiles/beamlet_star_node.dir/src/quadtree_node.cpp.o:quadtree_node.cpp:(.text+0x0): first defined here
+/usr/bin/ld: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o: in function `QuadTreeNode::QuadTreeNode(int, int, int)':
+quadtree.cpp:(.text+0x0): multiple definition of `QuadTreeNode::QuadTreeNode(int, int, int)'; CMakeFiles/beamlet_star_node.dir/src/quadtree_node.cpp.o:quadtree_node.cpp:(.text+0x0): first defined here
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:227: beamlet_star_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

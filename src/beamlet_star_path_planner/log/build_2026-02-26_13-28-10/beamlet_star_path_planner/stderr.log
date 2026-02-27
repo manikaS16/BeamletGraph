@@ -1,0 +1,21 @@
+In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:8[m[K:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:34:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KBeamletGraph::[m[K’ on member ‘[01m[KprintBeamlets[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   34 |     void [01;31m[KBeamletGraph[m[K::printBeamlets() const
+      |          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:34:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   34 |     void BeamletGraph::printBeamlets() [01;31m[Kconst[m[K
+      |                                        [01;31m[K^~~~~[m[K
+      |                                             [32m[K;[m[K
+In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:7[m[K:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:34:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KBeamletGraph::[m[K’ on member ‘[01m[KprintBeamlets[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   34 |     void [01;31m[KBeamletGraph[m[K::printBeamlets() const
+      |          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:34:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   34 |     void BeamletGraph::printBeamlets() [01;31m[Kconst[m[K
+      |                                        [01;31m[K^~~~~[m[K
+      |                                             [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:160: CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:76: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

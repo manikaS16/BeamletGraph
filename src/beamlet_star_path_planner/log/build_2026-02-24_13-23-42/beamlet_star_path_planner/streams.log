@@ -1,0 +1,24 @@
+[0.015s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.119s] [ 20%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/DyadicObject.cpp.o[0m
+[0.121s] [ 40%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[0.121s] [ 60%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o[0m
+[2.585s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:[m[K In member function ‘[01m[Kvoid QuadTree::[01;32m[KprintFormalDyadicForm[m[K(DyadicObject*) const[m[K’:
+[2.586s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:81:14:[m[K [01;31m[Kerror: [m[K‘[01m[KDyadicObject* DyadicObject::children [4][m[K’ is private within this context
+[2.586s]    81 |     if(node->[01;31m[Kchildren[m[K[0] == nullptr) {
+[2.586s]       |              [01;31m[K^~~~~~~~[m[K
+[2.586s] In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:4[m[K,
+[2.586s]                  from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:3[m[K:
+[2.587s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/DyadicObject.h:15:19:[m[K [01;36m[Knote: [m[Kdeclared private here
+[2.587s]    15 |     DyadicObject* [01;36m[Kchildren[m[K[4]; // 4 quadrants
+[2.587s]       |                   [01;36m[K^~~~~~~~[m[K
+[2.587s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:109:37:[m[K [01;31m[Kerror: [m[K‘[01m[KDyadicObject* DyadicObject::children [4][m[K’ is private within this context
+[2.588s]   109 |         printFormalDyadicForm(node->[01;31m[Kchildren[m[K[i]);
+[2.588s]       |                                     [01;31m[K^~~~~~~~[m[K
+[2.588s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/DyadicObject.h:15:19:[m[K [01;36m[Knote: [m[Kdeclared private here
+[2.588s]    15 |     DyadicObject* [01;36m[Kchildren[m[K[4]; // 4 quadrants
+[2.588s]       |                   [01;36m[K^~~~~~~~[m[K
+[3.301s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:90: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o] Error 1
+[3.301s] gmake[2]: *** Waiting for unfinished jobs....
+[3.827s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+[3.828s] gmake: *** [Makefile:146: all] Error 2
+[3.832s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12

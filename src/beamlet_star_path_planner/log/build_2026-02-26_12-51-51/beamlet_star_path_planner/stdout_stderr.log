@@ -1,0 +1,34 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o[0m
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:[m[K In constructor ‘[01m[KBeamletStarNode::[01;32m[KBeamletStarNode[m[K()[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:88:31:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBeamletGraph::generateBeamlets(std::map<std::vector<int>, Point*>&)[m[K’
+   88 |         [01;31m[Kgraph.generateBeamlets(points)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:7[m[K:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:26:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid BeamletGraph::[01;32m[KgenerateBeamlets[m[K(QuadTree&, const std::map<std::vector<int>, Point*>&)[m[K’
+   26 |     void [01;36m[KgenerateBeamlets[m[K(QuadTree& quadtree, const std::map<std::vector<int>, Point*>& points);
+      |          [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:26:10:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:[m[K In member function ‘[01m[Kbool QuadTree::[01;32m[KintersectsLine[m[K(DyadicObject*, Point*, Point*)[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:226:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Point[m[K’ has no member named ‘[01m[Kx[m[K’
+  226 |     int x1 = p1->[01;31m[Kx[m[K, y1 = p1->y;
+      |                  [01;31m[K^[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:227:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Point[m[K’ has no member named ‘[01m[Kx[m[K’
+  227 |     int x2 = p2->[01;31m[Kx[m[K, y2 = p2->y;
+      |                  [01;31m[K^[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:231:13:[m[K [01;31m[Kerror: [m[KISO C++ forbids comparison between pointer and integer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  231 |         ([01;31m[Ky1 < ymin[m[K && y2 < ymin) || (y1 > ymax && y2 > ymax))
+      |          [01;31m[K~~~^~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:231:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ky2[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+  231 |         (y1 < ymin && [01;31m[Ky2[m[K < ymin) || (y1 > ymax && y2 > ymax))
+      |                       [01;31m[K^~[m[K
+      |                       [32m[Kyn[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:231:41:[m[K [01;31m[Kerror: [m[KISO C++ forbids comparison between pointer and integer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  231 |         (y1 < ymin && y2 < ymin) || ([01;31m[Ky1 > ymax[m[K && y2 > ymax))
+      |                                      [01;31m[K~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:76: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:90: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

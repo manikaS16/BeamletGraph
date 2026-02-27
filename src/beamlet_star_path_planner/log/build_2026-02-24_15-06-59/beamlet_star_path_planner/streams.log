@@ -1,0 +1,37 @@
+[0.010s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.096s] [ 20%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o[0m
+[0.097s] [ 40%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[1.513s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:150:13:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+[1.514s]   150 | std::vector<[01;31m[KPoint[m[K*> QuadTree::extractBoundaryPoints(DyadicObject* node) const
+[1.514s]       |             [01;31m[K^~~~~[m[K
+[1.514s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:150:19:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.514s]   150 | std::vector<Point*[01;31m[K>[m[K QuadTree::extractBoundaryPoints(DyadicObject* node) const
+[1.514s]       |                   [01;31m[K^[m[K
+[1.514s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:150:19:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[1.514s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:150:21:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint QuadTree::[01;32m[KextractBoundaryPoints[m[K(DyadicObject*) const[m[K’
+[1.514s]   150 | std::vector<Point*> [01;31m[KQuadTree[m[K::extractBoundaryPoints(DyadicObject* node) const
+[1.515s]       |                     [01;31m[K^~~~~~~~[m[K
+[1.515s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:150:21:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kint QuadTree::[01;32m[KextractBoundaryPoints[m[K(DyadicObject*) const[m[K’
+[1.515s] In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:3[m[K:
+[1.515s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:8:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass QuadTree[m[K’ defined here
+[1.515s]     8 | class [01;36m[KQuadTree[m[K
+[1.515s]       |       [01;36m[K^~~~~~~~[m[K
+[1.516s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:164:13:[m[K [01;31m[Kerror: [m[K‘[01m[KBeamlet[m[K’ was not declared in this scope
+[1.516s]   164 | std::vector<[01;31m[KBeamlet[m[K*> QuadTree::createBeamletsFromNode(DyadicObject* node)
+[1.517s]       |             [01;31m[K^~~~~~~[m[K
+[1.517s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:164:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.517s]   164 | std::vector<Beamlet*[01;31m[K>[m[K QuadTree::createBeamletsFromNode(DyadicObject* node)
+[1.517s]       |                     [01;31m[K^[m[K
+[1.517s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:164:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[1.517s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:164:23:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint QuadTree::[01;32m[KcreateBeamletsFromNode[m[K(DyadicObject*)[m[K’
+[1.517s]   164 | std::vector<Beamlet*> [01;31m[KQuadTree[m[K::createBeamletsFromNode(DyadicObject* node)
+[1.517s]       |                       [01;31m[K^~~~~~~~[m[K
+[1.517s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:164:23:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kint QuadTree::[01;32m[KcreateBeamletsFromNode[m[K(DyadicObject*)[m[K’
+[1.517s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:8:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass QuadTree[m[K’ defined here
+[1.518s]     8 | class [01;36m[KQuadTree[m[K
+[1.518s]       |       [01;36m[K^~~~~~~~[m[K
+[1.934s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:90: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o] Error 1
+[1.934s] gmake[2]: *** Waiting for unfinished jobs....
+[2.114s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+[2.114s] gmake: *** [Makefile:146: all] Error 2
+[2.116s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12

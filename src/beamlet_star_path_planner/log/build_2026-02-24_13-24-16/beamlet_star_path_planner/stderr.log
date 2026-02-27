@@ -1,0 +1,12 @@
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:[m[K In member function ‘[01m[Kvoid QuadTree::[01;32m[KprintFormalDyadicForm[m[K(DyadicObject*) const[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:109:37:[m[K [01;31m[Kerror: [m[K‘[01m[KDyadicObject* DyadicObject::children [4][m[K’ is private within this context
+  109 |         printFormalDyadicForm(node->[01;31m[Kchildren[m[K[i]);
+      |                                     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:4[m[K,
+                 from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:3[m[K:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/DyadicObject.h:15:19:[m[K [01;36m[Knote: [m[Kdeclared private here
+   15 |     DyadicObject* [01;36m[Kchildren[m[K[4]; // 4 quadrants
+      |                   [01;36m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:90: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,19 @@
+[0.011s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.084s] [ 12%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o[0m
+[0.264s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:[m[K In member function ‘[01m[Kvoid BeamletGraph::[01;32m[KgenerateFromLeaves[m[K(const std::vector<DyadicObject*>&)[m[K’:
+[0.264s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:28:44:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[KPoint* Point::[01;32m[KgetOrCreatePoint[m[K(std::map<std::vector<int>, Point*>&, std::vector<int>)[m[K’ without object
+[0.264s]    28 |         Point* TL = [01;31m[KPoint::getOrCreatePoint(pointMap, {b[0][0], b[0][1]})[m[K;
+[0.264s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.264s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:29:44:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[KPoint* Point::[01;32m[KgetOrCreatePoint[m[K(std::map<std::vector<int>, Point*>&, std::vector<int>)[m[K’ without object
+[0.264s]    29 |         Point* TR = [01;31m[KPoint::getOrCreatePoint(pointMap, {b[1][0], b[1][1]})[m[K;
+[0.265s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.265s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:30:44:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[KPoint* Point::[01;32m[KgetOrCreatePoint[m[K(std::map<std::vector<int>, Point*>&, std::vector<int>)[m[K’ without object
+[0.265s]    30 |         Point* BL = [01;31m[KPoint::getOrCreatePoint(pointMap, {b[2][0], b[2][1]})[m[K;
+[0.265s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.265s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:31:44:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[KPoint* Point::[01;32m[KgetOrCreatePoint[m[K(std::map<std::vector<int>, Point*>&, std::vector<int>)[m[K’ without object
+[0.265s]    31 |         Point* BR = [01;31m[KPoint::getOrCreatePoint(pointMap, {b[3][0], b[3][1]})[m[K;
+[0.265s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.295s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:160: CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o] Error 1
+[0.296s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+[0.296s] gmake: *** [Makefile:146: all] Error 2
+[0.298s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12

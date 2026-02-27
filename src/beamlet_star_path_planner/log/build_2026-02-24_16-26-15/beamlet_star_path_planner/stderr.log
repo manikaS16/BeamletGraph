@@ -1,0 +1,7 @@
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:[m[K In member function ‘[01m[Kvoid BeamletStarNode::[01;32m[KcreateBeamletsFromLeaves[m[K(const std::vector<DyadicObject*>&)[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:87:25:[m[K [01;31m[Kerror: [m[K‘[01m[KgetOrCreatePoint[m[K’ was not declared in this scope
+   87 |             Point* TL = [01;31m[KgetOrCreatePoint[m[K(pointMap, {b[0][0], b[0][1]});
+      |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:76: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

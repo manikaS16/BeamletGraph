@@ -1,0 +1,12 @@
+[0.009s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.095s] [ 12%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o[0m
+[1.515s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:[m[K In member function ‘[01m[Kint QuadTree::[01;32m[KgetTotalCorners[m[K() const[m[K’:
+[1.515s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:193:12:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst std::map<std::vector<int>, Point*>[m[K’ to ‘[01m[Kint[m[K’ in return
+[1.515s]   193 |     return [01;31m[KuniquePoints[m[K;
+[1.515s]       |            [01;31m[K^~~~~~~~~~~~[m[K
+[1.515s]       |            [01;31m[K|[m[K
+[1.515s]       |            [01;31m[Kconst std::map<std::vector<int>, Point*>[m[K
+[1.934s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:90: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o] Error 1
+[1.934s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+[1.935s] gmake: *** [Makefile:146: all] Error 2
+[1.937s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12

@@ -1,0 +1,13 @@
+[ 14%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[ 28%] [32m[1mLinking CXX executable beamlet_star_node[0m
+/usr/bin/ld: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o: in function `BeamletStarNode::BeamletStarNode()':
+beamlet_star_node.cpp:(.text._ZN15BeamletStarNodeC2Ev[_ZN15BeamletStarNodeC5Ev]+0x13b3): undefined reference to `BeamletGraph::BeamletGraph()'
+/usr/bin/ld: beamlet_star_node.cpp:(.text._ZN15BeamletStarNodeC2Ev[_ZN15BeamletStarNodeC5Ev]+0x13cc): undefined reference to `BeamletGraph::generateFromLeaves(std::vector<DyadicObject*, std::allocator<DyadicObject*> > const&)'
+/usr/bin/ld: beamlet_star_node.cpp:(.text._ZN15BeamletStarNodeC2Ev[_ZN15BeamletStarNodeC5Ev]+0x153d): undefined reference to `BeamletGraph::getPointMapSize() const'
+/usr/bin/ld: beamlet_star_node.cpp:(.text._ZN15BeamletStarNodeC2Ev[_ZN15BeamletStarNodeC5Ev]+0x1711): undefined reference to `BeamletGraph::getBeamletCount() const'
+/usr/bin/ld: beamlet_star_node.cpp:(.text._ZN15BeamletStarNodeC2Ev[_ZN15BeamletStarNodeC5Ev]+0x1783): undefined reference to `BeamletGraph::~BeamletGraph()'
+/usr/bin/ld: beamlet_star_node.cpp:(.text._ZN15BeamletStarNodeC2Ev[_ZN15BeamletStarNodeC5Ev]+0x1cf2): undefined reference to `BeamletGraph::~BeamletGraph()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:243: beamlet_star_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

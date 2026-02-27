@@ -1,0 +1,13 @@
+[0.013s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.094s] [ 12%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o[0m
+[0.094s] [ 25%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[0.095s] [ 37%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o[0m
+[2.208s] [ 50%] [32m[1mLinking CXX executable beamlet_star_node[0m
+[2.350s] /usr/bin/ld: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o: in function `BeamletStarNode::BeamletStarNode()':
+[2.350s] beamlet_star_node.cpp:(.text._ZN15BeamletStarNodeC2Ev[_ZN15BeamletStarNodeC5Ev]+0x118c): undefined reference to `QuadTree::~QuadTree()'
+[2.350s] /usr/bin/ld: beamlet_star_node.cpp:(.text._ZN15BeamletStarNodeC2Ev[_ZN15BeamletStarNodeC5Ev]+0x1653): undefined reference to `QuadTree::~QuadTree()'
+[2.356s] collect2: error: ld returned 1 exit status
+[2.357s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:259: beamlet_star_node] Error 1
+[2.358s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+[2.358s] gmake: *** [Makefile:146: all] Error 2
+[2.360s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12

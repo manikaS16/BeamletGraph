@@ -1,0 +1,21 @@
+[0.011s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.094s] [ 20%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[0.095s] [ 40%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o[0m
+[1.570s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:[m[K In lambda function:
+[1.570s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:73:34:[m[K [01;31m[Kerror: [m[K‘[01m[KbeamletGraph[m[K’ was not declared in this scope; did you mean ‘[01m[KBeamletGraph[m[K’?
+[1.570s]    73 |                 for(auto be : b) [01;31m[KbeamletGraph[m[K.AddBeamlet(be);
+[1.570s]       |                                  [01;31m[K^~~~~~~~~~~~[m[K
+[1.570s]       |                                  [32m[KBeamletGraph[m[K
+[1.576s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.577s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[1.577s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[1.577s]                  from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:1[m[K:
+[1.577s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:[m[K In constructor ‘[01m[KBeamletStarNode::[01;32m[KBeamletStarNode[m[K()[m[K’:
+[1.577s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:79:66:[m[K [01;31m[Kerror: [m[K‘[01m[KbeamletGraph[m[K’ was not declared in this scope; did you mean ‘[01m[KBeamletGraph[m[K’?
+[1.577s]    79 |         RCLCPP_INFO(get_logger(), "Total beamlets created: %ld", [01;31m[KbeamletGraph[m[K.allBeamlets.size());
+[1.577s]       |                                                                  [01;31m[K^~~~~~~~~~~~[m[K
+[2.030s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:76: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o] Error 1
+[2.030s] gmake[2]: *** Waiting for unfinished jobs....
+[2.106s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+[2.106s] gmake: *** [Makefile:146: all] Error 2
+[2.109s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12

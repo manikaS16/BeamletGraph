@@ -1,0 +1,20 @@
+[0.009s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.089s] [ 20%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[0.089s] [ 40%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o[0m
+[2.141s] [ 60%] [32m[1mLinking CXX executable beamlet_star_node[0m
+[2.232s] /usr/bin/ld: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o: in function `BeamletStarNode::BeamletStarNode()::{lambda(DyadicObject*)#1}::operator()(DyadicObject*) const':
+[2.232s] beamlet_star_node.cpp:(.text._ZZN15BeamletStarNodeC4EvENKUlP12DyadicObjectE_clES1_[_ZZN15BeamletStarNodeC4EvENKUlP12DyadicObjectE_clES1_]+0xbf): undefined reference to `BeamletGraph::AddBeamlet(Beamlet*)'
+[2.232s] /usr/bin/ld: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o: in function `BeamletStarNode::BeamletStarNode()':
+[2.232s] beamlet_star_node.cpp:(.text._ZN15BeamletStarNodeC2Ev[_ZN15BeamletStarNodeC5Ev]+0x12b): undefined reference to `BeamletGraph::BeamletGraph()'
+[2.233s] /usr/bin/ld: beamlet_star_node.cpp:(.text._ZN15BeamletStarNodeC2Ev[_ZN15BeamletStarNodeC5Ev]+0x19b3): undefined reference to `BeamletGraph::~BeamletGraph()'
+[2.233s] /usr/bin/ld: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o: in function `BeamletStarNode::~BeamletStarNode()':
+[2.233s] beamlet_star_node.cpp:(.text._ZN15BeamletStarNodeD2Ev[_ZN15BeamletStarNodeD5Ev]+0x2c): undefined reference to `BeamletGraph::~BeamletGraph()'
+[2.233s] /usr/bin/ld: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o: in function `QuadTree::extractBoundaryPoints(DyadicObject*) const':
+[2.233s] quadtree.cpp:(.text+0x2668): undefined reference to `Point::getOrCreatePoint(std::vector<int, std::allocator<int> > const&)'
+[2.233s] /usr/bin/ld: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o: in function `QuadTree::createBeamletsFromNode(DyadicObject*)':
+[2.233s] quadtree.cpp:(.text+0x2830): undefined reference to `Beamlet::Beamlet(Point*, Point*)'
+[2.238s] collect2: error: ld returned 1 exit status
+[2.241s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:211: beamlet_star_node] Error 1
+[2.241s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+[2.241s] gmake: *** [Makefile:146: all] Error 2
+[2.244s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12

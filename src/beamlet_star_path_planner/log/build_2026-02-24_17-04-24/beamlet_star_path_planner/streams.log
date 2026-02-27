@@ -1,0 +1,19 @@
+[0.010s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.131s] [ 28%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[0.131s] [ 28%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o[0m
+[1.543s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.543s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[1.543s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[1.543s]                  from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:1[m[K:
+[1.543s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:[m[K In constructor ‘[01m[KBeamletStarNode::[01;32m[KBeamletStarNode[m[K()[m[K’:
+[1.543s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:78:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass BeamletGraph[m[K’ has no member named ‘[01m[KgetPointMapSize[m[K’
+[1.544s]    78 |         RCLCPP_INFO(get_logger(), "Total unique points: %ld", graph.[01;31m[KgetPointMapSize[m[K());
+[1.544s]       |                                                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.544s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:79:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass BeamletGraph[m[K’ has no member named ‘[01m[KgetBeamletCount[m[K’
+[1.544s]    79 |         RCLCPP_INFO(get_logger(), "Total beamlets: %ld", graph.[01;31m[KgetBeamletCount[m[K());
+[1.544s]       |                                                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.977s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:76: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o] Error 1
+[1.977s] gmake[2]: *** Waiting for unfinished jobs....
+[2.090s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+[2.090s] gmake: *** [Makefile:146: all] Error 2
+[2.093s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12

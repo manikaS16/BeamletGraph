@@ -1,0 +1,46 @@
+[0.010s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.096s] [ 12%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[0.097s] [ 25%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/Point.cpp.o[0m
+[0.102s] [ 50%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/Beamlet.cpp.o[0m
+[0.103s] [ 50%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o[0m
+[0.105s] [ 62%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o[0m
+[0.312s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Point.cpp:[m[K In static member function ‘[01m[Kstatic Point* Point::[01;32m[KgetOrCreatePoint[m[K(const std::vector<int>&)[m[K’:
+[0.313s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Point.cpp:51:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[0.313s]    51 |     static std::[01;31m[Kmap[m[K<std::vector<int>, std::unique_ptr<Point>> listOfPoints;
+[0.313s]       |                 [01;31m[K^~~[m[K
+[0.313s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Point.cpp:2:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::map[m[K’ is defined in header ‘[01m[K<map>[m[K’; did you forget to ‘[01m[K#include <map>[m[K’?
+[0.313s]     1 | #include "beamlet_star_path_planner/Point.h"
+[0.313s]   +++ |+[32m[K#include <map>[m[K
+[0.313s]     2 | // #include "utilities/PrintContent.h"
+[0.314s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Point.cpp:52:27:[m[K [01;31m[Kerror: [m[K‘[01m[KlistOfPoints[m[K’ was not declared in this scope
+[0.315s]    52 |     auto [it, inserted] = [01;31m[KlistOfPoints[m[K.try_emplace(coordinates, nullptr);
+[0.315s]       |                           [01;31m[K^~~~~~~~~~~~[m[K
+[0.315s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Point.cpp:55:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_unique[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.315s]    55 |         it->second = std::[01;31m[Kmake_unique[m[K<Point>(coordinates);
+[0.315s]       |                           [01;31m[K^~~~~~~~~~~[m[K
+[0.315s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Point.cpp:2:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::make_unique[m[K’ is defined in header ‘[01m[K<memory>[m[K’; did you forget to ‘[01m[K#include <memory>[m[K’?
+[0.315s]     1 | #include "beamlet_star_path_planner/Point.h"
+[0.315s]   +++ |+[32m[K#include <memory>[m[K
+[0.315s]     2 | // #include "utilities/PrintContent.h"
+[0.316s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Point.cpp:55:44:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[0.316s]    55 |         it->second = std::make_unique<Point[01;31m[K>[m[K(coordinates);
+[0.316s]       |                                            [01;31m[K^[m[K
+[0.347s] In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:9[m[K,
+[0.348s]                  from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Beamlet.h:6[m[K,
+[0.348s]                  from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Beamlet.cpp:1[m[K:
+[0.348s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:16:17:[m[K [01;31m[Kerror: [m[K‘[01m[KBeamlet[m[K’ was not declared in this scope
+[0.348s]    16 |     std::vector<[01;31m[KBeamlet[m[K*> allBeamlets;
+[0.348s]       |                 [01;31m[K^~~~~~~[m[K
+[0.348s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:16:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.348s]    16 |     std::vector<Beamlet*[01;31m[K>[m[K allBeamlets;
+[0.348s]       |                         [01;31m[K^[m[K
+[0.348s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:16:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[0.349s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:20:21:[m[K [01;31m[Kerror: [m[K‘[01m[KBeamlet[m[K’ has not been declared
+[0.349s]    20 |     void AddBeamlet([01;31m[KBeamlet[m[K* b);
+[0.349s]       |                     [01;31m[K^~~~~~~[m[K
+[0.353s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:132: CMakeFiles/beamlet_star_node.dir/src/Point.cpp.o] Error 1
+[0.353s] gmake[2]: *** Waiting for unfinished jobs....
+[0.548s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:146: CMakeFiles/beamlet_star_node.dir/src/Beamlet.cpp.o] Error 1
+[2.378s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+[2.378s] gmake: *** [Makefile:146: all] Error 2
+[2.382s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12

@@ -1,0 +1,14 @@
+[0.010s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.100s] [ 12%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o[0m
+[1.571s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:49:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool BeamletGraph::[01;32m[KisBeamletFeasible[m[K(const std::vector<std::vector<int> >&, const std::vector<int>&, const std::vector<int>&)[m[K’
+[1.571s]    49 | bool [01;31m[KBeamletGraph[m[K::isBeamletFeasible(
+[1.571s]       |      [01;31m[K^~~~~~~~~~~~[m[K
+[1.571s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:49:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kbool BeamletGraph::[01;32m[KisBeamletFeasible[m[K(const std::vector<std::vector<int> >&, const std::vector<int>&, const std::vector<int>&)[m[K’
+[1.571s] In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:8[m[K:
+[1.571s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:19:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass BeamletGraph[m[K’ defined here
+[1.571s]    19 | class [01;36m[KBeamletGraph[m[K {
+[1.571s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[2.034s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:160: CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o] Error 1
+[2.035s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+[2.035s] gmake: *** [Makefile:146: all] Error 2
+[2.037s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12

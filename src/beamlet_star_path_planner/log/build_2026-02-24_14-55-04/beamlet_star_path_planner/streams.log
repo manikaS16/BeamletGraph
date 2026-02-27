@@ -1,0 +1,127 @@
+[0.010s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.088s] [ 40%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o[0m
+[0.089s] [ 40%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[1.527s] In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:3[m[K:
+[1.527s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:30:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+[1.527s]    30 |     std::vector<[01;31m[KPoint[m[K*> extractBoundaryPoints(DyadicObject* node) const;
+[1.527s]       |                 [01;31m[K^~~~~[m[K
+[1.528s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:30:23:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.528s]    30 |     std::vector<Point*[01;31m[K>[m[K extractBoundaryPoints(DyadicObject* node) const;
+[1.528s]       |                       [01;31m[K^[m[K
+[1.528s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:30:23:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[1.532s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:31:17:[m[K [01;31m[Kerror: [m[K‘[01m[KBeamlet[m[K’ was not declared in this scope
+[1.532s]    31 |     std::vector<[01;31m[KBeamlet[m[K*> createBeamletsFromNode(DyadicObject* node);
+[1.532s]       |                 [01;31m[K^~~~~~~[m[K
+[1.532s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:31:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.532s]    31 |     std::vector<Beamlet*[01;31m[K>[m[K createBeamletsFromNode(DyadicObject* node);
+[1.532s]       |                         [01;31m[K^[m[K
+[1.532s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:31:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[1.538s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:150:13:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+[1.538s]   150 | std::vector<[01;31m[KPoint[m[K*> QuadTree::extractBoundaryPoints(DyadicObject* node) const
+[1.538s]       |             [01;31m[K^~~~~[m[K
+[1.539s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:150:19:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.539s]   150 | std::vector<Point*[01;31m[K>[m[K QuadTree::extractBoundaryPoints(DyadicObject* node) const
+[1.539s]       |                   [01;31m[K^[m[K
+[1.539s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:150:19:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[1.543s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:[m[K In member function ‘[01m[Kint QuadTree::[01;32m[KextractBoundaryPoints[m[K(DyadicObject*) const[m[K’:
+[1.543s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:153:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+[1.543s]   153 |     std::vector<[01;31m[KPoint[m[K*> points;
+[1.543s]       |                 [01;31m[K^~~~~[m[K
+[1.543s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:153:23:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.543s]   153 |     std::vector<Point*[01;31m[K>[m[K points;
+[1.543s]       |                       [01;31m[K^[m[K
+[1.543s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:153:23:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[1.543s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:159:16:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[Kpoints[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[1.544s]   159 |         points.[01;31m[Kpush_back[m[K(Point::getOrCreatePoint({b[i][0], b[i][1]}));
+[1.544s]       |                [01;31m[K^~~~~~~~~[m[K
+[1.544s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:159:26:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ is not a class, namespace, or enumeration
+[1.544s]   159 |         points.push_back([01;31m[KPoint[m[K::getOrCreatePoint({b[i][0], b[i][1]}));
+[1.544s]       |                          [01;31m[K^~~~~[m[K
+[1.545s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:[m[K At global scope:
+[1.546s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:164:13:[m[K [01;31m[Kerror: [m[K‘[01m[KBeamlet[m[K’ was not declared in this scope
+[1.546s]   164 | std::vector<[01;31m[KBeamlet[m[K*> QuadTree::createBeamletsFromNode(DyadicObject* node)
+[1.546s]       |             [01;31m[K^~~~~~~[m[K
+[1.546s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:164:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.546s]   164 | std::vector<Beamlet*[01;31m[K>[m[K QuadTree::createBeamletsFromNode(DyadicObject* node)
+[1.546s]       |                     [01;31m[K^[m[K
+[1.546s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:164:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[1.550s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:[m[K In member function ‘[01m[Kint QuadTree::[01;32m[KcreateBeamletsFromNode[m[K(DyadicObject*)[m[K’:
+[1.550s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:166:17:[m[K [01;31m[Kerror: [m[K‘[01m[KBeamlet[m[K’ was not declared in this scope
+[1.550s]   166 |     std::vector<[01;31m[KBeamlet[m[K*> beamlets;
+[1.550s]       |                 [01;31m[K^~~~~~~[m[K
+[1.551s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:166:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.551s]   166 |     std::vector<Beamlet*[01;31m[K>[m[K beamlets;
+[1.551s]       |                         [01;31m[K^[m[K
+[1.551s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:166:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[1.551s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:172:29:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Kpoints[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[1.551s]   172 |     for(size_t i=0;i<points.[01;31m[Ksize[m[K();++i)
+[1.551s]       |                             [01;31m[K^~~~[m[K
+[1.551s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:173:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Kpoints[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[1.551s]   173 |         for(size_t j=i+1;j<points.[01;31m[Ksize[m[K();++j)
+[1.551s]       |                                   [01;31m[K^~~~[m[K
+[1.552s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:174:22:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[Kbeamlets[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[1.552s]   174 |             beamlets.[01;31m[Kpush_back[m[K(new Beamlet(points[i], points[j]));
+[1.552s]       |                      [01;31m[K^~~~~~~~~[m[K
+[1.552s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:174:36:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[KBeamlet[m[K’
+[1.552s]   174 |             beamlets.push_back(new [01;31m[KBeamlet[m[K(points[i], points[j]));
+[1.552s]       |                                    [01;31m[K^~~~~~~[m[K
+[1.568s] In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:2[m[K:
+[1.568s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:30:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+[1.568s]    30 |     std::vector<[01;31m[KPoint[m[K*> extractBoundaryPoints(DyadicObject* node) const;
+[1.568s]       |                 [01;31m[K^~~~~[m[K
+[1.568s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:30:23:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.568s]    30 |     std::vector<Point*[01;31m[K>[m[K extractBoundaryPoints(DyadicObject* node) const;
+[1.569s]       |                       [01;31m[K^[m[K
+[1.569s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:30:23:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[1.572s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:31:17:[m[K [01;31m[Kerror: [m[K‘[01m[KBeamlet[m[K’ was not declared in this scope
+[1.572s]    31 |     std::vector<[01;31m[KBeamlet[m[K*> createBeamletsFromNode(DyadicObject* node);
+[1.572s]       |                 [01;31m[K^~~~~~~[m[K
+[1.573s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:31:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.573s]    31 |     std::vector<Beamlet*[01;31m[K>[m[K createBeamletsFromNode(DyadicObject* node);
+[1.573s]       |                         [01;31m[K^[m[K
+[1.573s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:31:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[1.581s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:[m[K In constructor ‘[01m[KBeamletStarNode::[01;32m[KBeamletStarNode[m[K()[m[K’:
+[1.581s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:68:21:[m[K [01;31m[Kerror: [m[K‘[01m[KBeamlet[m[K’ was not declared in this scope
+[1.581s]    68 |         std::vector<[01;31m[KBeamlet[m[K*> allBeamlets;
+[1.582s]       |                     [01;31m[K^~~~~~~[m[K
+[1.582s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:68:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.582s]    68 |         std::vector<Beamlet*[01;31m[K>[m[K allBeamlets;
+[1.582s]       |                             [01;31m[K^[m[K
+[1.582s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:68:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[1.583s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:[m[K In lambda function:
+[1.583s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:73:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kbegin[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::begin[m[K’?
+[1.583s]    73 |                 for(auto be : [01;31m[Kb[m[K) beamletGraph.AddBeamlet(be);
+[1.583s]       |                               [01;31m[K^[m[K
+[1.583s]       |                               [32m[Kstd::begin[m[K
+[1.583s] In file included from [01m[K/usr/include/c++/13/string:53[m[K,
+[1.583s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:18[m[K,
+[1.583s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[1.583s]                  from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:1[m[K:
+[1.584s] [01m[K/usr/include/c++/13/bits/range_access.h:114:37:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::begin[m[K’ declared here
+[1.584s]   114 |   template<typename _Tp> const _Tp* [01;36m[Kbegin[m[K(const valarray<_Tp>&) noexcept;
+[1.584s]       |                                     [01;36m[K^~~~~[m[K
+[1.584s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:73:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kend[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::end[m[K’?
+[1.584s]    73 |                 for(auto be : [01;31m[Kb[m[K) beamletGraph.AddBeamlet(be);
+[1.584s]       |                               [01;31m[K^[m[K
+[1.584s]       |                               [32m[Kstd::end[m[K
+[1.584s] [01m[K/usr/include/c++/13/bits/range_access.h:116:37:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::end[m[K’ declared here
+[1.584s]   116 |   template<typename _Tp> const _Tp* [01;36m[Kend[m[K(const valarray<_Tp>&) noexcept;
+[1.584s]       |                                     [01;36m[K^~~[m[K
+[1.588s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:73:34:[m[K [01;31m[Kerror: [m[K‘[01m[KbeamletGraph[m[K’ was not declared in this scope
+[1.588s]    73 |                 for(auto be : b) [01;31m[KbeamletGraph[m[K.AddBeamlet(be);
+[1.588s]       |                                  [01;31m[K^~~~~~~~~~~~[m[K
+[1.595s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.595s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K:
+[1.595s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:[m[K In constructor ‘[01m[KBeamletStarNode::[01;32m[KBeamletStarNode[m[K()[m[K’:
+[1.595s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:79:66:[m[K [01;31m[Kerror: [m[K‘[01m[KbeamletGraph[m[K’ was not declared in this scope
+[1.596s]    79 |         RCLCPP_INFO(get_logger(), "Total beamlets created: %ld", [01;31m[KbeamletGraph[m[K.allBeamlets.size());
+[1.596s]       |                                                                  [01;31m[K^~~~~~~~~~~~[m[K
+[1.596s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:68:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KallBeamlets[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.596s]    68 |         std::vector<Beamlet*> [01;35m[KallBeamlets[m[K;
+[1.596s]       |                               [01;35m[K^~~~~~~~~~~[m[K
+[1.969s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:90: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o] Error 1
+[1.970s] gmake[2]: *** Waiting for unfinished jobs....
+[2.027s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:76: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o] Error 1
+[2.027s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+[2.027s] gmake: *** [Makefile:146: all] Error 2
+[2.031s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12

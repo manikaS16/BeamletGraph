@@ -1,0 +1,83 @@
+[0.011s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.178s] [ 14%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[0.178s] [ 28%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/Beamlet.cpp.o[0m
+[0.182s] [ 42%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o[0m
+[0.182s] [ 57%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/Point.cpp.o[0m
+[0.435s] In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Point.cpp:1[m[K:
+[0.435s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:58:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::map[m[K’ has not been declared
+[0.435s]    58 |     static Point* getOrCreatePoint([01;31m[Kstd[m[K::map<std::vector<int>, Point*>& pointMap, std::vector<int> coordinates);
+[0.436s]       |                                    [01;31m[K^~~[m[K
+[0.436s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:58:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+[0.436s]    58 |     static Point* getOrCreatePoint(std::map[01;31m[K<[m[Kstd::vector<int>, Point*>& pointMap, std::vector<int> coordinates);
+[0.436s]       |                                            [01;31m[K^[m[K
+[0.442s] In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Beamlet.h:4[m[K,
+[0.442s]                  from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Beamlet.cpp:1[m[K:
+[0.442s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:58:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::map[m[K’ has not been declared
+[0.442s]    58 |     static Point* getOrCreatePoint([01;31m[Kstd[m[K::map<std::vector<int>, Point*>& pointMap, std::vector<int> coordinates);
+[0.443s]       |                                    [01;31m[K^~~[m[K
+[0.443s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:58:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+[0.443s]    58 |     static Point* getOrCreatePoint(std::map[01;31m[K<[m[Kstd::vector<int>, Point*>& pointMap, std::vector<int> coordinates);
+[0.443s]       |                                            [01;31m[K^[m[K
+[0.464s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:132: CMakeFiles/beamlet_star_node.dir/src/Beamlet.cpp.o] Error 1
+[0.464s] gmake[2]: *** Waiting for unfinished jobs....
+[0.470s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Point.cpp:129:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KPoint* Point::[01;32m[KgetOrCreatePoint[m[K(std::map<std::vector<int>, Point*>&, std::vector<int>)[m[K’
+[0.471s]   129 | Point* [01;31m[KPoint[m[K::getOrCreatePoint(std::map<std::vector<int>, Point*>& pointMap,
+[0.471s]       |        [01;31m[K^~~~~[m[K
+[0.471s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:58:19:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kstatic Point* Point::[01;32m[KgetOrCreatePoint[m[K(int)[m[K’
+[0.471s]    58 |     static Point* [01;36m[KgetOrCreatePoint[m[K(std::map<std::vector<int>, Point*>& pointMap, std::vector<int> coordinates);
+[0.471s]       |                   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[0.471s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:16:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Point[m[K’ defined here
+[0.471s]    16 | class [01;36m[KPoint[m[K
+[0.471s]       |       [01;36m[K^~~~~[m[K
+[0.534s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:146: CMakeFiles/beamlet_star_node.dir/src/Point.cpp.o] Error 1
+[1.798s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K createBeamletsFromLeaves[m[K(std::map<std::vector<int>, Point*>&, const std::vector<DyadicObject*>&)[m[K’:
+[1.799s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:179:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kbeamlets[m[K’ was not declared in this scope; did you mean ‘[01m[KBeamlet[m[K’?
+[1.799s]   179 |             [01;31m[Kbeamlets[m[K.push_back(new Beamlet(TL, TR));
+[1.799s]       |             [01;31m[K^~~~~~~~[m[K
+[1.799s]       |             [32m[KBeamlet[m[K
+[1.799s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:179:50:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass Beamlet[m[K’
+[1.799s]   179 |             beamlets.push_back(new Beamlet(TL, TR[01;31m[K)[m[K);
+[1.800s]       |                                                  [01;31m[K^[m[K
+[1.800s] In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:5[m[K:
+[1.800s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:13:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass Beamlet[m[K’
+[1.800s]    13 | class [01;36m[KBeamlet[m[K;
+[1.800s]       |       [01;36m[K^~~~~~~[m[K
+[1.800s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:180:50:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass Beamlet[m[K’
+[1.800s]   180 |             beamlets.push_back(new Beamlet(BL, BR[01;31m[K)[m[K);
+[1.800s]       |                                                  [01;31m[K^[m[K
+[1.800s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:13:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass Beamlet[m[K’
+[1.800s]    13 | class [01;36m[KBeamlet[m[K;
+[1.801s]       |       [01;36m[K^~~~~~~[m[K
+[1.801s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:181:50:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass Beamlet[m[K’
+[1.801s]   181 |             beamlets.push_back(new Beamlet(TL, BL[01;31m[K)[m[K);
+[1.801s]       |                                                  [01;31m[K^[m[K
+[1.801s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:13:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass Beamlet[m[K’
+[1.801s]    13 | class [01;36m[KBeamlet[m[K;
+[1.801s]       |       [01;36m[K^~~~~~~[m[K
+[1.801s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:182:50:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass Beamlet[m[K’
+[1.801s]   182 |             beamlets.push_back(new Beamlet(TR, BR[01;31m[K)[m[K);
+[1.801s]       |                                                  [01;31m[K^[m[K
+[1.802s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:13:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass Beamlet[m[K’
+[1.802s]    13 | class [01;36m[KBeamlet[m[K;
+[1.802s]       |       [01;36m[K^~~~~~~[m[K
+[1.802s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:185:50:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass Beamlet[m[K’
+[1.802s]   185 |             beamlets.push_back(new Beamlet(TL, BR[01;31m[K)[m[K);
+[1.802s]       |                                                  [01;31m[K^[m[K
+[1.802s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:13:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass Beamlet[m[K’
+[1.802s]    13 | class [01;36m[KBeamlet[m[K;
+[1.802s]       |       [01;36m[K^~~~~~~[m[K
+[1.802s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:186:50:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass Beamlet[m[K’
+[1.803s]   186 |             beamlets.push_back(new Beamlet(TR, BL[01;31m[K)[m[K);
+[1.803s]       |                                                  [01;31m[K^[m[K
+[1.803s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:13:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass Beamlet[m[K’
+[1.803s]    13 | class [01;36m[KBeamlet[m[K;
+[1.803s]       |       [01;36m[K^~~~~~~[m[K
+[1.823s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:[m[K In constructor ‘[01m[KBeamletStarNode::[01;32m[KBeamletStarNode[m[K()[m[K’:
+[1.824s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:74:22:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[KBeamletGraph graph[m[K’ has incomplete type and cannot be defined
+[1.824s]    74 |         BeamletGraph [01;31m[Kgraph[m[K;
+[1.824s]       |                      [01;31m[K^~~~~[m[K
+[2.246s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:90: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o] Error 1
+[2.257s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:76: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o] Error 1
+[2.257s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+[2.258s] gmake: *** [Makefile:146: all] Error 2
+[2.260s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12

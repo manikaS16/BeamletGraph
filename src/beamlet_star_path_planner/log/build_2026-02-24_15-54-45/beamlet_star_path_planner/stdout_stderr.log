@@ -1,0 +1,87 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:12:34:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+   12 |     std::map<std::pair<int,int>, [01;31m[KPoint[m[K*> pointMap;
+      |                                  [01;31m[K^~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:12:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+   12 |     std::map<std::pair<int,int>, Point*[01;31m[K>[m[K pointMap;
+      |                                        [01;31m[K^[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:12:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:13:17:[m[K [01;31m[Kerror: [m[K‘[01m[KBeamlet[m[K’ was not declared in this scope
+   13 |     std::vector<[01;31m[KBeamlet[m[K*> beamlets;
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:13:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   13 |     std::vector<Beamlet*[01;31m[K>[m[K beamlets;
+      |                         [01;31m[K^[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:13:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:78:5:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ does not name a type
+   78 |     [01;31m[KPoint[m[K* getOrCreatePoint(std::map<std::pair<int,int>, Point*>& pointMap, int row, int col)
+      |     [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:1[m[K:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:[m[K In constructor ‘[01m[KBeamletStarNode::[01;32m[KBeamletStarNode[m[K()[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:74:72:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[K((BeamletStarNode*)this)->BeamletStarNode::pointMap[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   74 |         RCLCPP_INFO(get_logger(), "Total unique points: %ld", pointMap.[01;31m[Ksize[m[K());
+      |                                                                        [01;31m[K^~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:75:67:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[K((BeamletStarNode*)this)->BeamletStarNode::beamlets[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   75 |         RCLCPP_INFO(get_logger(), "Total beamlets: %ld", beamlets.[01;31m[Ksize[m[K());
+      |                                                                   [01;31m[K^~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:[m[K In member function ‘[01m[Kvoid BeamletStarNode::[01;32m[KcreateBeamletsFromLeaves[m[K(const std::vector<DyadicObject*>&)[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:94:13:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+   94 |             [01;31m[KPoint[m[K* TL = getOrCreatePoint(b[0][0], b[0][1]);
+      |             [01;31m[K^~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:94:20:[m[K [01;31m[Kerror: [m[K‘[01m[KTL[m[K’ was not declared in this scope
+   94 |             Point* [01;31m[KTL[m[K = getOrCreatePoint(b[0][0], b[0][1]);
+      |                    [01;31m[K^~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:94:25:[m[K [01;31m[Kerror: [m[K‘[01m[KgetOrCreatePoint[m[K’ was not declared in this scope
+   94 |             Point* TL = [01;31m[KgetOrCreatePoint[m[K(b[0][0], b[0][1]);
+      |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:95:20:[m[K [01;31m[Kerror: [m[K‘[01m[KTR[m[K’ was not declared in this scope
+   95 |             Point* [01;31m[KTR[m[K = getOrCreatePoint(b[1][0], b[1][1]);
+      |                    [01;31m[K^~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:96:20:[m[K [01;31m[Kerror: [m[K‘[01m[KBL[m[K’ was not declared in this scope
+   96 |             Point* [01;31m[KBL[m[K = getOrCreatePoint(b[2][0], b[2][1]);
+      |                    [01;31m[K^~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:97:20:[m[K [01;31m[Kerror: [m[K‘[01m[KBR[m[K’ was not declared in this scope
+   97 |             Point* [01;31m[KBR[m[K = getOrCreatePoint(b[3][0], b[3][1]);
+      |                    [01;31m[K^~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:100:22:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[K((BeamletStarNode*)this)->BeamletStarNode::beamlets[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  100 |             beamlets.[01;31m[Kpush_back[m[K(new Beamlet(TL, TR));
+      |                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:100:36:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[KBeamlet[m[K’
+  100 |             beamlets.push_back(new [01;31m[KBeamlet[m[K(TL, TR));
+      |                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:101:22:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[K((BeamletStarNode*)this)->BeamletStarNode::beamlets[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  101 |             beamlets.[01;31m[Kpush_back[m[K(new Beamlet(BL, BR));
+      |                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:101:36:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[KBeamlet[m[K’
+  101 |             beamlets.push_back(new [01;31m[KBeamlet[m[K(BL, BR));
+      |                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:102:22:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[K((BeamletStarNode*)this)->BeamletStarNode::beamlets[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  102 |             beamlets.[01;31m[Kpush_back[m[K(new Beamlet(TL, BL));
+      |                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:102:36:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[KBeamlet[m[K’
+  102 |             beamlets.push_back(new [01;31m[KBeamlet[m[K(TL, BL));
+      |                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:103:22:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[K((BeamletStarNode*)this)->BeamletStarNode::beamlets[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  103 |             beamlets.[01;31m[Kpush_back[m[K(new Beamlet(TR, BR));
+      |                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:103:36:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[KBeamlet[m[K’
+  103 |             beamlets.push_back(new [01;31m[KBeamlet[m[K(TR, BR));
+      |                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:106:22:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[K((BeamletStarNode*)this)->BeamletStarNode::beamlets[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  106 |             beamlets.[01;31m[Kpush_back[m[K(new Beamlet(TL, BR));
+      |                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:106:36:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[KBeamlet[m[K’
+  106 |             beamlets.push_back(new [01;31m[KBeamlet[m[K(TL, BR));
+      |                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:107:22:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[K((BeamletStarNode*)this)->BeamletStarNode::beamlets[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  107 |             beamlets.[01;31m[Kpush_back[m[K(new Beamlet(TR, BL));
+      |                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:107:36:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[KBeamlet[m[K’
+  107 |             beamlets.push_back(new [01;31m[KBeamlet[m[K(TR, BL));
+      |                                    [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:76: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,10 @@
+[0.011s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.088s] [ 12%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o[0m
+[2.058s] [ 25%] [32m[1mLinking CXX executable beamlet_star_node[0m
+[2.150s] /usr/bin/ld: CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o: in function `BeamletGraph::generateBeamlets(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >, std::map<std::vector<int, std::allocator<int> >, Point*, std::less<std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<int, std::allocator<int> > const, Point*> > > const&)':
+[2.150s] BeamletGraph.cpp:(.text+0x188): undefined reference to `BeamletGraph::isBeamletFeasibleBresenham(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >&, Point*, Point*)'
+[2.155s] collect2: error: ld returned 1 exit status
+[2.157s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:259: beamlet_star_node] Error 1
+[2.157s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+[2.158s] gmake: *** [Makefile:146: all] Error 2
+[2.160s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12

@@ -1,0 +1,23 @@
+[0.009s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.093s] [ 12%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/Point.cpp.o[0m
+[1.495s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Point.cpp:140:70:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kvoid[01;32m[K printUniquePoints[m[K(std::map<std::vector<int>, Point*>&)[m[K’ cannot have cv-qualifier
+[1.495s]   140 | void printUniquePoints(std::map<std::vector<int>, Point*>& pointMap) [01;31m[Kconst[m[K{
+[1.495s]       |                                                                      [01;31m[K^~~~~[m[K
+[1.495s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[1.495s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[1.495s]                  from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Point.cpp:5[m[K:
+[1.495s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Point.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K printUniquePoints[m[K(std::map<std::vector<int>, Point*>&)[m[K’:
+[1.496s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Point.cpp:145:13:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: First argument to logging macros must be an rclcpp::Logger
+[1.496s]   145 |             [01;31m[KRCLCPP_INFO[m[K(
+[1.496s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[1.496s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K:
+[1.496s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Point.cpp:145:13:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K("Point: (%d, %d)")[m[K’, which is of non-class type ‘[01m[Kconst char [16][m[K’
+[1.496s]   145 |             [01;31m[KRCLCPP_INFO[m[K(
+[1.496s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[1.496s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Point.cpp:145:13:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K("Point: (%d, %d)")[m[K’, which is of non-class type ‘[01m[Kconst char [16][m[K’
+[1.496s]   145 |             [01;31m[KRCLCPP_INFO[m[K(
+[1.497s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[1.927s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:146: CMakeFiles/beamlet_star_node.dir/src/Point.cpp.o] Error 1
+[1.927s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+[1.928s] gmake: *** [Makefile:146: all] Error 2
+[1.930s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12

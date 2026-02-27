@@ -1,0 +1,13 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o[0m
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:124:35:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kconst std::vector<DyadicObject*>& QuadTree::[01;32m[KgetLeaves[m[K() const[m[K’
+  124 | const std::vector<DyadicObject*>& [01;31m[KQuadTree[m[K::getLeaves() const { return leaves; }
+      |                                   [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:3[m[K:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:31:39:[m[K [01;36m[Knote: [m[K‘[01m[Kconst std::vector<DyadicObject*>& QuadTree::[01;32m[KgetLeaves[m[K() const[m[K’ previously defined here
+   31 |     const std::vector<DyadicObject*>& [01;36m[KgetLeaves[m[K() const { return leaves; }
+      |                                       [01;36m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:90: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

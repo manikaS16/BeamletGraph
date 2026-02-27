@@ -1,0 +1,64 @@
+[0.009s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.093s] [ 14%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[0.095s] [ 28%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o[0m
+[0.096s] [ 57%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/Point.cpp.o[0m
+[0.096s] [ 57%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/Beamlet.cpp.o[0m
+[1.590s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K createBeamletsFromLeaves[m[K(std::map<std::vector<int>, Point*>&, const std::vector<DyadicObject*>&)[m[K’:
+[1.591s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:179:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kbeamlets[m[K’ was not declared in this scope; did you mean ‘[01m[KBeamlet[m[K’?
+[1.591s]   179 |             [01;31m[Kbeamlets[m[K.push_back(new Beamlet(TL, TR));
+[1.591s]       |             [01;31m[K^~~~~~~~[m[K
+[1.591s]       |             [32m[KBeamlet[m[K
+[1.591s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:179:50:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass Beamlet[m[K’
+[1.591s]   179 |             beamlets.push_back(new Beamlet(TL, TR[01;31m[K)[m[K);
+[1.591s]       |                                                  [01;31m[K^[m[K
+[1.591s] In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:5[m[K:
+[1.591s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:13:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass Beamlet[m[K’
+[1.592s]    13 | class [01;36m[KBeamlet[m[K;
+[1.592s]       |       [01;36m[K^~~~~~~[m[K
+[1.592s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:180:50:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass Beamlet[m[K’
+[1.592s]   180 |             beamlets.push_back(new Beamlet(BL, BR[01;31m[K)[m[K);
+[1.592s]       |                                                  [01;31m[K^[m[K
+[1.592s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:13:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass Beamlet[m[K’
+[1.592s]    13 | class [01;36m[KBeamlet[m[K;
+[1.592s]       |       [01;36m[K^~~~~~~[m[K
+[1.592s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:181:50:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass Beamlet[m[K’
+[1.592s]   181 |             beamlets.push_back(new Beamlet(TL, BL[01;31m[K)[m[K);
+[1.593s]       |                                                  [01;31m[K^[m[K
+[1.593s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:13:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass Beamlet[m[K’
+[1.593s]    13 | class [01;36m[KBeamlet[m[K;
+[1.593s]       |       [01;36m[K^~~~~~~[m[K
+[1.593s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:182:50:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass Beamlet[m[K’
+[1.593s]   182 |             beamlets.push_back(new Beamlet(TR, BR[01;31m[K)[m[K);
+[1.593s]       |                                                  [01;31m[K^[m[K
+[1.593s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:13:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass Beamlet[m[K’
+[1.593s]    13 | class [01;36m[KBeamlet[m[K;
+[1.594s]       |       [01;36m[K^~~~~~~[m[K
+[1.594s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:185:50:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass Beamlet[m[K’
+[1.594s]   185 |             beamlets.push_back(new Beamlet(TL, BR[01;31m[K)[m[K);
+[1.594s]       |                                                  [01;31m[K^[m[K
+[1.594s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:13:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass Beamlet[m[K’
+[1.594s]    13 | class [01;36m[KBeamlet[m[K;
+[1.594s]       |       [01;36m[K^~~~~~~[m[K
+[1.594s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:186:50:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass Beamlet[m[K’
+[1.594s]   186 |             beamlets.push_back(new Beamlet(TR, BL[01;31m[K)[m[K);
+[1.594s]       |                                                  [01;31m[K^[m[K
+[1.595s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Point.h:13:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass Beamlet[m[K’
+[1.595s]    13 | class [01;36m[KBeamlet[m[K;
+[1.595s]       |       [01;36m[K^~~~~~~[m[K
+[1.651s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.651s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[1.651s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[1.651s]                  from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:1[m[K:
+[1.651s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:[m[K In constructor ‘[01m[KBeamletStarNode::[01;32m[KBeamletStarNode[m[K()[m[K’:
+[1.651s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:78:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass BeamletGraph[m[K’ has no member named ‘[01m[KgetPointMapSize[m[K’
+[1.651s]    78 |         RCLCPP_INFO(get_logger(), "Total unique points: %ld", graph.[01;31m[KgetPointMapSize[m[K());
+[1.652s]       |                                                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.652s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:79:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass BeamletGraph[m[K’ has no member named ‘[01m[KgetBeamletCount[m[K’
+[1.652s]    79 |         RCLCPP_INFO(get_logger(), "Total beamlets: %ld", graph.[01;31m[KgetBeamletCount[m[K());
+[1.652s]       |                                                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.035s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:90: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o] Error 1
+[2.035s] gmake[2]: *** Waiting for unfinished jobs....
+[2.105s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:76: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o] Error 1
+[2.105s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+[2.105s] gmake: *** [Makefile:146: all] Error 2
+[2.108s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12

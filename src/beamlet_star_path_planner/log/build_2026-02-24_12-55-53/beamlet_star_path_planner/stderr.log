@@ -1,0 +1,21 @@
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:6:5:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint QuadTree::[01;32m[KcountObstacles[m[K(const QuadTreeNode*) const[m[K’
+    6 | int [01;31m[KQuadTree[m[K::countObstacles(const QuadTreeNode* node) const
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:1[m[K:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:21:9:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kint QuadTree::[01;32m[KcountObstacles[m[K(int, int, int) const[m[K’
+   21 |     int [01;36m[KcountObstacles[m[K(int scale, int x, int y) const;
+      |         [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:8:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass QuadTree[m[K’ defined here
+    8 | class [01;36m[KQuadTree[m[K
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:[m[K In member function ‘[01m[KQuadTreeNode* QuadTree::[01;32m[KbuildQuadTree[m[K(int, int, int)[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:35:40:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KQuadTree::countObstacles(QuadTreeNode*&)[m[K’
+   35 |     int totalObstacles = [01;31m[KcountObstacles(node)[m[K;
+      |                          [01;31m[K~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:21:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kint QuadTree::[01;32m[KcountObstacles[m[K(int, int, int) const[m[K’
+   21 |     int [01;36m[KcountObstacles[m[K(int scale, int x, int y) const;
+      |         [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:21:9:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:104: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

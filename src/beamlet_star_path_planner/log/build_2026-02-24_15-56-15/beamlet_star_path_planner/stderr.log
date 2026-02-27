@@ -1,0 +1,35 @@
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:80:12:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KBeamletStarNode::[m[K’ on member ‘[01m[KgetOrCreatePoint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   80 |     Point* [01;31m[KBeamletStarNode[m[K::getOrCreatePoint(std::map<std::pair<int,int>, Point*>& pointMap, int row, int col)
+      |            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:[m[K In member function ‘[01m[Kvoid BeamletStarNode::[01;32m[KcreateBeamletsFromLeaves[m[K(const std::vector<DyadicObject*>&)[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:96:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBeamletStarNode::getOrCreatePoint(int&, int&)[m[K’
+   96 |             Point* TL = [01;31m[KgetOrCreatePoint(b[0][0], b[0][1])[m[K;
+      |                         [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:80:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KPoint* BeamletStarNode::[01;32m[KgetOrCreatePoint[m[K(std::map<std::pair<int, int>, Point*>&, int, int)[m[K’
+   80 |     Point* [01;36m[KBeamletStarNode[m[K::getOrCreatePoint(std::map<std::pair<int,int>, Point*>& pointMap, int row, int col)
+      |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:80:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:97:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBeamletStarNode::getOrCreatePoint(int&, int&)[m[K’
+   97 |             Point* TR = [01;31m[KgetOrCreatePoint(b[1][0], b[1][1])[m[K;
+      |                         [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:80:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KPoint* BeamletStarNode::[01;32m[KgetOrCreatePoint[m[K(std::map<std::pair<int, int>, Point*>&, int, int)[m[K’
+   80 |     Point* [01;36m[KBeamletStarNode[m[K::getOrCreatePoint(std::map<std::pair<int,int>, Point*>& pointMap, int row, int col)
+      |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:80:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:98:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBeamletStarNode::getOrCreatePoint(int&, int&)[m[K’
+   98 |             Point* BL = [01;31m[KgetOrCreatePoint(b[2][0], b[2][1])[m[K;
+      |                         [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:80:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KPoint* BeamletStarNode::[01;32m[KgetOrCreatePoint[m[K(std::map<std::pair<int, int>, Point*>&, int, int)[m[K’
+   80 |     Point* [01;36m[KBeamletStarNode[m[K::getOrCreatePoint(std::map<std::pair<int,int>, Point*>& pointMap, int row, int col)
+      |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:80:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:99:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBeamletStarNode::getOrCreatePoint(int&, int&)[m[K’
+   99 |             Point* BR = [01;31m[KgetOrCreatePoint(b[3][0], b[3][1])[m[K;
+      |                         [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:80:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KPoint* BeamletStarNode::[01;32m[KgetOrCreatePoint[m[K(std::map<std::pair<int, int>, Point*>&, int, int)[m[K’
+   80 |     Point* [01;36m[KBeamletStarNode[m[K::getOrCreatePoint(std::map<std::pair<int,int>, Point*>& pointMap, int row, int col)
+      |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:80:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:76: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

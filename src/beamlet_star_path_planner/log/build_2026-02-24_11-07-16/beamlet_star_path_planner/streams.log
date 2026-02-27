@@ -1,0 +1,14 @@
+[0.010s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.101s] [ 25%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[1.481s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:[m[K In constructor ‘[01m[KBeamletStarNode::[01;32m[KBeamletStarNode[m[K()[m[K’:
+[1.481s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:57:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kroot[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.481s]    57 |         QuadTreeNode* [01;35m[Kroot[m[K = qt.buildQuadTree(smax, 1, 1);  // starting at top-left corner
+[1.481s]       |                       [01;35m[K^~~~[m[K
+[2.048s] [ 50%] [32m[1mLinking CXX executable beamlet_star_node[0m
+[2.127s] /usr/bin/ld: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o: in function `QuadTree::buildQuadTree(int, int, int)':
+[2.127s] quadtree.cpp:(.text+0x19c): undefined reference to `QuadTreeNode::QuadTreeNode(int, int, int)'
+[2.131s] collect2: error: ld returned 1 exit status
+[2.133s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:195: beamlet_star_node] Error 1
+[2.133s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+[2.133s] gmake: *** [Makefile:146: all] Error 2
+[2.136s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12

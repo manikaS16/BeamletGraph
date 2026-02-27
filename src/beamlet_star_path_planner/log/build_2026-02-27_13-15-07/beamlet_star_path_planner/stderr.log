@@ -1,0 +1,13 @@
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:[m[K In constructor ‘[01m[KBeamletStarNode::[01;32m[KBeamletStarNode[m[K()[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:89:31:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBeamletGraph::generateBeamlets(std::vector<std::vector<int> >&, std::map<std::vector<int>, Point*>&)[m[K’
+   89 |         [01;31m[Kgraph.generateBeamlets(grid, points)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:7[m[K:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:26:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid BeamletGraph::[01;32m[KgenerateBeamlets[m[K(const std::map<std::vector<int>, Point*>&)[m[K’
+   26 |     void [01;36m[KgenerateBeamlets[m[K(const std::map<std::vector<int>, Point*>& points);
+      |          [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:26:10:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:76: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

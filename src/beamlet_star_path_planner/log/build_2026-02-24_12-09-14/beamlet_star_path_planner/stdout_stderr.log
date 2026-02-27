@@ -1,0 +1,10 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o[0m
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:[m[K In member function ‘[01m[Kvoid QuadTree::[01;32m[KrecursiveDivide[m[K(QuadTreeNode*)[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:34:25:[m[K [01;31m[Kerror: [m[K‘[01m[KtotalCells[m[K’ was not declared in this scope
+   34 |     double upperLimit = [01;31m[KtotalCells[m[K - 1 - alpha*(pow(2,2*node->key.scale-1) - 1);
+      |                         [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:118: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

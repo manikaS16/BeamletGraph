@@ -1,0 +1,58 @@
+[ 14%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/Point.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o[0m
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:153:1:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ does not name a type
+  153 | [01;31m[KPoint[m[K* getOrCreatePoint(std::map<std::vector<int>, Point*>& pointMap, std::vector<int> coordinates)
+      | [01;31m[K^~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K createBeamletsFromLeaves[m[K(const std::vector<DyadicObject*>&)[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:172:13:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+  172 |             [01;31m[KPoint[m[K* TL = getOrCreatePoint(pointMap, {b[0][0], b[0][1]});
+      |             [01;31m[K^~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:172:20:[m[K [01;31m[Kerror: [m[K‘[01m[KTL[m[K’ was not declared in this scope
+  172 |             Point* [01;31m[KTL[m[K = getOrCreatePoint(pointMap, {b[0][0], b[0][1]});
+      |                    [01;31m[K^~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:172:42:[m[K [01;31m[Kerror: [m[K‘[01m[KpointMap[m[K’ was not declared in this scope
+  172 |             Point* TL = getOrCreatePoint([01;31m[KpointMap[m[K, {b[0][0], b[0][1]});
+      |                                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:172:25:[m[K [01;31m[Kerror: [m[K‘[01m[KgetOrCreatePoint[m[K’ was not declared in this scope
+  172 |             Point* TL = [01;31m[KgetOrCreatePoint[m[K(pointMap, {b[0][0], b[0][1]});
+      |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:173:20:[m[K [01;31m[Kerror: [m[K‘[01m[KTR[m[K’ was not declared in this scope
+  173 |             Point* [01;31m[KTR[m[K = getOrCreatePoint(pointMap, {b[1][0], b[1][1]});
+      |                    [01;31m[K^~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:174:20:[m[K [01;31m[Kerror: [m[K‘[01m[KBL[m[K’ was not declared in this scope
+  174 |             Point* [01;31m[KBL[m[K = getOrCreatePoint(pointMap, {b[2][0], b[2][1]});
+      |                    [01;31m[K^~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:175:20:[m[K [01;31m[Kerror: [m[K‘[01m[KBR[m[K’ was not declared in this scope
+  175 |             Point* [01;31m[KBR[m[K = getOrCreatePoint(pointMap, {b[3][0], b[3][1]});
+      |                    [01;31m[K^~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:178:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kbeamlets[m[K’ was not declared in this scope
+  178 |             [01;31m[Kbeamlets[m[K.push_back(new Beamlet(TL, TR));
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:178:36:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[KBeamlet[m[K’
+  178 |             beamlets.push_back(new [01;31m[KBeamlet[m[K(TL, TR));
+      |                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:179:36:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[KBeamlet[m[K’
+  179 |             beamlets.push_back(new [01;31m[KBeamlet[m[K(BL, BR));
+      |                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:180:36:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[KBeamlet[m[K’
+  180 |             beamlets.push_back(new [01;31m[KBeamlet[m[K(TL, BL));
+      |                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:181:36:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[KBeamlet[m[K’
+  181 |             beamlets.push_back(new [01;31m[KBeamlet[m[K(TR, BR));
+      |                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:184:36:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[KBeamlet[m[K’
+  184 |             beamlets.push_back(new [01;31m[KBeamlet[m[K(TL, BR));
+      |                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:185:36:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[KBeamlet[m[K’
+  185 |             beamlets.push_back(new [01;31m[KBeamlet[m[K(TR, BL));
+      |                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:[m[K In constructor ‘[01m[KBeamletStarNode::[01;32m[KBeamletStarNode[m[K()[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:74:9:[m[K [01;31m[Kerror: [m[K‘[01m[KcreateBeamletsFromLeaves[m[K’ was not declared in this scope
+   74 |         [01;31m[KcreateBeamletsFromLeaves[m[K(leaves);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:90: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:76: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

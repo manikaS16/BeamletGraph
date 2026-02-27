@@ -1,0 +1,23 @@
+In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:13[m[K,
+                 from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:8[m[K:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:36:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KQuadTree::[m[K’ on member ‘[01m[KgenerateUniqueLeafPoints[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   36 |     void [01;31m[KQuadTree[m[K::generateUniqueLeafPoints(std::map<std::vector<int>, Point*>& pointMap);
+      |          [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:160: CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:2[m[K:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:36:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KQuadTree::[m[K’ on member ‘[01m[KgenerateUniqueLeafPoints[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   36 |     void [01;31m[KQuadTree[m[K::generateUniqueLeafPoints(std::map<std::vector<int>, Point*>& pointMap);
+      |          [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:3[m[K:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:36:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KQuadTree::[m[K’ on member ‘[01m[KgenerateUniqueLeafPoints[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   36 |     void [01;31m[KQuadTree[m[K::generateUniqueLeafPoints(std::map<std::vector<int>, Point*>& pointMap);
+      |          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:[m[K In member function ‘[01m[Kvoid QuadTree::[01;32m[KgenerateUniqueLeafPoints[m[K(std::map<std::vector<int>, Point*>&)[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:181:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  181 |             Point* [01;35m[Kp[m[K = Point::getOrCreatePoint(pointMap, coords);
+      |                    [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:76: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:90: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

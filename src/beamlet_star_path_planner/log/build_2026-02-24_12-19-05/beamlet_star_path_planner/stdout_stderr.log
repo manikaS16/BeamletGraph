@@ -1,0 +1,17 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o[0m
+In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:1[m[K:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:[m[K In constructor ‘[01m[KQuadTree::[01;32m[KQuadTree[m[K(const std::vector<std::vector<int> >&, int, int, double)[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:19:11:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KQuadTree[m[K’ does not have any field named ‘[01m[Kroot[m[K’
+   19 |         : [01;31m[Kroot[m[K(nullptr), grid(grid), rows(rows), cols(cols), alpha(alpha) {}
+      |           [01;31m[K^~~~[m[K
+In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:3[m[K:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:[m[K In constructor ‘[01m[KQuadTree::[01;32m[KQuadTree[m[K(const std::vector<std::vector<int> >&, int, int, double)[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:19:11:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KQuadTree[m[K’ does not have any field named ‘[01m[Kroot[m[K’
+   19 |         : [01;31m[Kroot[m[K(nullptr), grid(grid), rows(rows), cols(cols), alpha(alpha) {}
+      |           [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:118: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:76: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

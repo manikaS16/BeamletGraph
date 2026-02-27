@@ -1,0 +1,4 @@
+source;share/beamlet_star_path_planner/local_setup.bash
+source;share/beamlet_star_path_planner/local_setup.dsv
+source;share/beamlet_star_path_planner/local_setup.sh
+source;share/beamlet_star_path_planner/local_setup.zsh

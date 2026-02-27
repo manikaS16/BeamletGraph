@@ -1,0 +1,4 @@
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:[m[K In member function ‘[01m[Kint QuadTree::[01;32m[KcountObstacles[m[K(DyadicObject*) const[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:8:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    8 | int QuadTree::countObstacles([01;35m[KDyadicObject* node[m[K) const
+      |                              [01;35m[K~~~~~~~~~~~~~~^~~~[m[K

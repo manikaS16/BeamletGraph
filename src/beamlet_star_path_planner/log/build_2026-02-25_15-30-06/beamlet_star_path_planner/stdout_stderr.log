@@ -1,0 +1,20 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o[0m
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:[m[K In member function ‘[01m[Kvoid QuadTree::[01;32m[KbuildQuadTree[m[K(int, int, int)[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:85:44:[m[K [01;31m[Kerror: [m[Kinvalid use of void expression
+   85 |             node->setChild(0, [01;31m[KbuildQuadTree(scale-1, 2*x-1, 2*y-1)[m[K);
+      |                               [01;31m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:86:44:[m[K [01;31m[Kerror: [m[Kinvalid use of void expression
+   86 |             node->setChild(1, [01;31m[KbuildQuadTree(scale-1, 2*x-1, 2*y)[m[K);
+      |                               [01;31m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:87:44:[m[K [01;31m[Kerror: [m[Kinvalid use of void expression
+   87 |             node->setChild(2, [01;31m[KbuildQuadTree(scale-1, 2*x, 2*y-1)[m[K);
+      |                               [01;31m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:88:44:[m[K [01;31m[Kerror: [m[Kinvalid use of void expression
+   88 |             node->setChild(3, [01;31m[KbuildQuadTree(scale-1, 2*x, 2*y)[m[K);
+      |                               [01;31m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:90: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

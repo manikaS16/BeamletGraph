@@ -1,0 +1,18 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/Beamlet.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/Point.cpp.o[0m
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:[m[K In member function ‘[01m[Kvoid BeamletGraph::[01;32m[KgenerateBeamlets[m[K(std::map<std::vector<int>, Point*>)[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:40:31:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBeamlet::GetNeighborBeamlets(BeamletGraph*)[m[K’
+   40 |         [01;31m[Kb->GetNeighborBeamlets(this)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:11[m[K,
+                 from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:8[m[K:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Beamlet.h:45:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::list<Beamlet*> Beamlet::[01;32m[KGetNeighborBeamlets[m[K()[m[K’
+   45 |         [01;36m[KGetNeighborBeamlets[m[K();
+      |         [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/Beamlet.h:45:9:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:160: CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

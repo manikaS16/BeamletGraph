@@ -1,0 +1,15 @@
+[0.011s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.089s] [ 14%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[2.063s] [ 28%] [32m[1mLinking CXX executable beamlet_star_node[0m
+[2.212s] /usr/bin/ld: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o: in function `BeamletStarNode::BeamletStarNode()':
+[2.212s] beamlet_star_node.cpp:(.text._ZN15BeamletStarNodeC2Ev[_ZN15BeamletStarNodeC5Ev]+0x13b3): undefined reference to `BeamletGraph::BeamletGraph()'
+[2.212s] /usr/bin/ld: beamlet_star_node.cpp:(.text._ZN15BeamletStarNodeC2Ev[_ZN15BeamletStarNodeC5Ev]+0x13cc): undefined reference to `BeamletGraph::generateFromLeaves(std::vector<DyadicObject*, std::allocator<DyadicObject*> > const&)'
+[2.212s] /usr/bin/ld: beamlet_star_node.cpp:(.text._ZN15BeamletStarNodeC2Ev[_ZN15BeamletStarNodeC5Ev]+0x153d): undefined reference to `BeamletGraph::getPointMapSize() const'
+[2.212s] /usr/bin/ld: beamlet_star_node.cpp:(.text._ZN15BeamletStarNodeC2Ev[_ZN15BeamletStarNodeC5Ev]+0x1711): undefined reference to `BeamletGraph::getBeamletCount() const'
+[2.213s] /usr/bin/ld: beamlet_star_node.cpp:(.text._ZN15BeamletStarNodeC2Ev[_ZN15BeamletStarNodeC5Ev]+0x1783): undefined reference to `BeamletGraph::~BeamletGraph()'
+[2.213s] /usr/bin/ld: beamlet_star_node.cpp:(.text._ZN15BeamletStarNodeC2Ev[_ZN15BeamletStarNodeC5Ev]+0x1cf2): undefined reference to `BeamletGraph::~BeamletGraph()'
+[2.218s] collect2: error: ld returned 1 exit status
+[2.220s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:243: beamlet_star_node] Error 1
+[2.220s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+[2.220s] gmake: *** [Makefile:146: all] Error 2
+[2.223s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12

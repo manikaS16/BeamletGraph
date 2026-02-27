@@ -1,0 +1,50 @@
+[0.014s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.101s] [ 12%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o[0m
+[0.101s] [ 25%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o[0m
+[0.102s] [ 37%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[1.598s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:[m[K In constructor ‘[01m[KBeamletStarNode::[01;32m[KBeamletStarNode[m[K()[m[K’:
+[1.599s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:66:9:[m[K [01;31m[Kerror: [m[K‘[01m[KprintFormalDyadicForm[m[K’ was not declared in this scope
+[1.599s]    66 |         [01;31m[KprintFormalDyadicForm[m[K(qt.getRoot());
+[1.599s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.718s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:9:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KQuadTree::[01;32m[KQuadTree[m[K(const std::vector<std::vector<int> >&, int, int, int, double)[m[K’
+[1.718s]     9 | [01;31m[KQuadTree[m[K::QuadTree(const std::vector<std::vector<int>>& grid, int rows, int cols, int smax, double alpha)
+[1.719s]       | [01;31m[K^~~~~~~~[m[K
+[1.719s] In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:3[m[K:
+[1.719s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:8:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[KQuadTree::[01;32m[KQuadTree[m[K(const QuadTree&)[m[K’
+[1.719s]     8 | class [01;36m[KQuadTree[m[K
+[1.719s]       |       [01;36m[K^~~~~~~~[m[K
+[1.719s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:21:5:[m[K [01;36m[Knote: [m[K                ‘[01m[KQuadTree::[01;32m[KQuadTree[m[K(const std::vector<std::vector<int> >&, int, int, int, int)[m[K’
+[1.719s]    21 |     [01;36m[KQuadTree[m[K(const std::vector<std::vector<int>>& grid, int rows, int cols, int smax, int alpha);
+[1.720s]       |     [01;36m[K^~~~~~~~[m[K
+[1.720s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:8:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass QuadTree[m[K’ defined here
+[1.720s]     8 | class [01;36m[KQuadTree[m[K
+[1.720s]       |       [01;36m[K^~~~~~~~[m[K
+[1.720s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:[m[K In function ‘[01m[KDyadicObject*[01;32m[K getRoot[m[K()[m[K’:
+[1.720s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:15:12:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.720s]    15 |     return [01;31m[Kthis[m[K->root;
+[1.720s]       |            [01;31m[K^~~~[m[K
+[1.721s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:[m[K In member function ‘[01m[Kvoid QuadTree::[01;32m[KbuildQuadTree[m[K(int, int, int)[m[K’:
+[1.721s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:72:20:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.721s]    72 |             return [01;31m[Knode[m[K;
+[1.721s]       |                    [01;31m[K^~~~[m[K
+[1.721s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:81:20:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.721s]    81 |             return [01;31m[Knode[m[K;
+[1.721s]       |                    [01;31m[K^~~~[m[K
+[1.721s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:85:44:[m[K [01;31m[Kerror: [m[Kinvalid use of void expression
+[1.721s]    85 |             node->setChild(0, [01;31m[KbuildQuadTree(scale-1, 2*x-1, 2*y-1)[m[K);
+[1.722s]       |                               [01;31m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.722s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:86:44:[m[K [01;31m[Kerror: [m[Kinvalid use of void expression
+[1.722s]    86 |             node->setChild(1, [01;31m[KbuildQuadTree(scale-1, 2*x-1, 2*y)[m[K);
+[1.722s]       |                               [01;31m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.722s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:87:44:[m[K [01;31m[Kerror: [m[Kinvalid use of void expression
+[1.722s]    87 |             node->setChild(2, [01;31m[KbuildQuadTree(scale-1, 2*x, 2*y-1)[m[K);
+[1.722s]       |                               [01;31m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.722s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:88:44:[m[K [01;31m[Kerror: [m[Kinvalid use of void expression
+[1.722s]    88 |             node->setChild(3, [01;31m[KbuildQuadTree(scale-1, 2*x, 2*y)[m[K);
+[1.722s]       |                               [01;31m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[2.029s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:76: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o] Error 1
+[2.029s] gmake[2]: *** Waiting for unfinished jobs....
+[2.138s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:90: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o] Error 1
+[2.139s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+[2.139s] gmake: *** [Makefile:146: all] Error 2
+[2.141s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12

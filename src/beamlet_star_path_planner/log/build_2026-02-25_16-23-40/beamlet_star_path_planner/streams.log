@@ -1,0 +1,26 @@
+[0.013s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.104s] [ 12%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[0.104s] [ 25%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o[0m
+[0.108s] [ 50%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/DyadicObject.cpp.o[0m
+[0.108s] [ 50%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o[0m
+[0.331s] In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/DyadicObject.cpp:8[m[K:
+[0.331s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/DyadicObject.h:[m[K In constructor ‘[01m[KDyadicObject::[01;32m[KDyadicObject[m[K(int, int, int)[m[K’:
+[0.331s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/DyadicObject.h:16:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KDyadicObject::color[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[0.331s]    16 |         std::string [01;35m[Kcolor[m[K;
+[0.331s]       |                     [01;35m[K^~~~~[m[K
+[0.331s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/DyadicObject.h:15:15:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint** DyadicObject::boundaries[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[0.331s]    15 |         int **[01;35m[Kboundaries[m[K;
+[0.331s]       |               [01;35m[K^~~~~~~~~~[m[K
+[0.332s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/DyadicObject.cpp:16:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[0.332s]    16 | [01;35m[KDyadicObject[m[K::DyadicObject(int scale, int posX, int posY)
+[0.332s]       | [01;35m[K^~~~~~~~~~~~[m[K
+[1.736s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:[m[K In member function ‘[01m[Kvoid QuadTree::[01;32m[KprintFormalDyadicForm[m[K(DyadicObject*) const[m[K’:
+[1.736s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:101:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass DyadicObject[m[K’ has no member named ‘[01m[Kisleaf[m[K’; did you mean ‘[01m[KisLeaf[m[K’?
+[1.736s]   101 |     if(node->[01;31m[Kisleaf[m[K()) {
+[1.736s]       |              [01;31m[K^~~~~~[m[K
+[1.736s]       |              [32m[KisLeaf[m[K
+[2.171s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:90: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o] Error 1
+[2.171s] gmake[2]: *** Waiting for unfinished jobs....
+[2.324s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+[2.324s] gmake: *** [Makefile:146: all] Error 2
+[2.327s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12

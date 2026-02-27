@@ -1,0 +1,71 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:3[m[K:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:19:24:[m[K [01;31m[Kerror: [m[K‘[01m[KDyadicObject[m[K’ has not been declared
+   19 |     int countObstacles([01;31m[KDyadicObject[m[K* node) const;
+      |                        [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:21:26:[m[K [01;31m[Kerror: [m[K‘[01m[KDyadicObject[m[K’ has not been declared
+   21 |     void recursiveDivide([01;31m[KDyadicObject[m[K* node);
+      |                          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:23:5:[m[K [01;31m[Kerror: [m[K‘[01m[KDyadicObject[m[K’ does not name a type
+   23 |     [01;31m[KDyadicObject[m[K* buildQuadTree(int scale, int x, int y);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:25:32:[m[K [01;31m[Kerror: [m[K‘[01m[KDyadicObject[m[K’ has not been declared
+   25 |     void printFormalDyadicForm([01;31m[KDyadicObject[m[K* node) const;
+      |                                [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:8:5:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint QuadTree::[01;32m[KcountObstacles[m[K(DyadicObject*) const[m[K’
+    8 | int [01;31m[KQuadTree[m[K::countObstacles(DyadicObject* node) const
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:19:9:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kint QuadTree::[01;32m[KcountObstacles[m[K(int*) const[m[K’
+   19 |     int [01;36m[KcountObstacles[m[K(DyadicObject* node) const;
+      |         [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:6:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass QuadTree[m[K’ defined here
+    6 | class [01;36m[KQuadTree[m[K
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:31:15:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KDyadicObject* QuadTree::[01;32m[KbuildQuadTree[m[K(int, int, int)[m[K’
+   31 | DyadicObject* [01;31m[KQuadTree[m[K::buildQuadTree(int scale, int x, int y)
+      |               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:31:15:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[KDyadicObject* QuadTree::[01;32m[KbuildQuadTree[m[K(int, int, int)[m[K’
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:6:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass QuadTree[m[K’ defined here
+    6 | class [01;36m[KQuadTree[m[K
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:70:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid QuadTree::[01;32m[KprintFormalDyadicForm[m[K(DyadicObject*) const[m[K’
+   70 | void [01;31m[KQuadTree[m[K::printFormalDyadicForm(DyadicObject* node) const
+      |      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:25:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid QuadTree::[01;32m[KprintFormalDyadicForm[m[K(int*) const[m[K’
+   25 |     void [01;36m[KprintFormalDyadicForm[m[K(DyadicObject* node) const;
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:6:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass QuadTree[m[K’ defined here
+    6 | class [01;36m[KQuadTree[m[K
+      |       [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:3[m[K:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:19:24:[m[K [01;31m[Kerror: [m[K‘[01m[KDyadicObject[m[K’ has not been declared
+   19 |     int countObstacles([01;31m[KDyadicObject[m[K* node) const;
+      |                        [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:21:26:[m[K [01;31m[Kerror: [m[K‘[01m[KDyadicObject[m[K’ has not been declared
+   21 |     void recursiveDivide([01;31m[KDyadicObject[m[K* node);
+      |                          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:23:5:[m[K [01;31m[Kerror: [m[K‘[01m[KDyadicObject[m[K’ does not name a type
+   23 |     [01;31m[KDyadicObject[m[K* buildQuadTree(int scale, int x, int y);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:25:32:[m[K [01;31m[Kerror: [m[K‘[01m[KDyadicObject[m[K’ has not been declared
+   25 |     void printFormalDyadicForm([01;31m[KDyadicObject[m[K* node) const;
+      |                                [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:[m[K In constructor ‘[01m[KBeamletStarNode::[01;32m[KBeamletStarNode[m[K()[m[K’:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:61:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass QuadTree[m[K’ has no member named ‘[01m[KbuildQuadTree[m[K’; did you mean ‘[01m[KQuadTree[m[K’?
+   61 |         this->root = qt.[01;31m[KbuildQuadTree[m[K(smax, 1, 1); // starting at top-left corner, 1 based indexing
+      |                         [01;31m[K^~~~~~~~~~~~~[m[K
+      |                         [32m[KQuadTree[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:62:40:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KDyadicObject*[m[K’ to ‘[01m[Kint*[m[K’
+   62 |         qt.printFormalDyadicForm([01;31m[Kthis->root[m[K);
+      |                                  [01;31m[K~~~~~~^~~~[m[K
+      |                                        [01;31m[K|[m[K
+      |                                        [01;31m[KDyadicObject*[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:25:46:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid QuadTree::[01;32m[KprintFormalDyadicForm[m[K(int*) const[m[K’
+   25 |     void printFormalDyadicForm([01;36m[KDyadicObject* node[m[K) const;
+      |                                [01;36m[K~~~~~~~~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:90: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:76: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

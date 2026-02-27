@@ -1,0 +1,36 @@
+[0.010s] Invoking command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12
+[0.103s] [ 12%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[0.104s] [ 25%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o[0m
+[0.105s] [ 37%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o[0m
+[0.105s] [ 50%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/Beamlet.cpp.o[0m
+[0.106s] [ 62%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/Point.cpp.o[0m
+[0.233s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Beamlet.cpp:[m[K In member function ‘[01m[Kstd::__cxx11::list<Beamlet*> Beamlet::[01;32m[KGetNeighborBeamlets[m[K(BeamletGraph*)[m[K’:
+[0.234s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/Beamlet.cpp:25:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KbeamletGraph[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.234s]    25 | std::list<Beamlet*> Beamlet::GetNeighborBeamlets([01;35m[KBeamletGraph* beamletGraph[m[K)
+[0.234s]       |                                                  [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[0.284s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:[m[K In member function ‘[01m[Kvoid BeamletGraph::[01;32m[KgenerateFromLeaves[m[K(const std::vector<DyadicObject*>&)[m[K’:
+[0.284s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:28:44:[m[K [01;31m[Kerror: [m[Kvoid value not ignored as it ought to be
+[0.284s]    28 |         Point* TL = [01;31m[KPoint::getOrCreatePoint(pointMap, {b[0][0], b[0][1]})[m[K;
+[0.284s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.284s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:29:44:[m[K [01;31m[Kerror: [m[Kvoid value not ignored as it ought to be
+[0.284s]    29 |         Point* TR = [01;31m[KPoint::getOrCreatePoint(pointMap, {b[1][0], b[1][1]})[m[K;
+[0.284s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.284s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:30:44:[m[K [01;31m[Kerror: [m[Kvoid value not ignored as it ought to be
+[0.284s]    30 |         Point* BL = [01;31m[KPoint::getOrCreatePoint(pointMap, {b[2][0], b[2][1]})[m[K;
+[0.285s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.285s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:31:44:[m[K [01;31m[Kerror: [m[Kvoid value not ignored as it ought to be
+[0.285s]    31 |         Point* BR = [01;31m[KPoint::getOrCreatePoint(pointMap, {b[3][0], b[3][1]})[m[K;
+[0.285s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.313s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:160: CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o] Error 1
+[0.313s] gmake[2]: *** Waiting for unfinished jobs....
+[1.667s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:[m[K In member function ‘[01m[Kvoid QuadTree::[01;32m[KgenerateUniqueLeafPoints[m[K(std::map<std::vector<int>, Point*>&)[m[K’:
+[1.667s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:181:47:[m[K [01;31m[Kerror: [m[Kvoid value not ignored as it ought to be
+[1.667s]   181 |             Point* p = [01;31m[KPoint::getOrCreatePoint(pointMap, coords)[m[K;
+[1.668s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[1.668s] [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:181:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.668s]   181 |             Point* [01;35m[Kp[m[K = Point::getOrCreatePoint(pointMap, coords);
+[1.668s]       |                    [01;35m[K^[m[K
+[2.094s] gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:90: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o] Error 1
+[2.308s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+[2.308s] gmake: *** [Makefile:146: all] Error 2
+[2.310s] Invoked command in '/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/build/beamlet_star_path_planner -- -j12 -l12

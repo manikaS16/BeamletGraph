@@ -1,0 +1,117 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o[0m
+In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/BeamletGraph.h:13[m[K,
+                 from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/BeamletGraph.cpp:8[m[K:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KQuadTree::[m[K’ on member ‘[01m[KgenerateUniqueLeafPoints[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   35 |     void [01;31m[KQuadTree[m[K::generateUniqueLeafPoints(std::map<std::vector<int>, Point*>& pointMap);
+      |          [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:160: CMakeFiles/beamlet_star_node.dir/src/BeamletGraph.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:3[m[K:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:72:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+   35 |     void QuadTree::generateUniqueLeafPoints(std::map<std::vector<int>, [01;31m[KPoint[m[K*>& pointMap);
+      |                                                                        [01;31m[K^~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+   35 |     void QuadTree::generateUniqueLeafPoints(std::map<std::vector<int>, Point*[01;31m[K>[m[K& pointMap);
+      |                                                                              [01;31m[K^[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:72:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+   35 |     void QuadTree::generateUniqueLeafPoints(std::map<std::vector<int>, [01;31m[KPoint[m[K*>& pointMap);
+      |                                                                        [01;31m[K^~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+   35 |     void QuadTree::generateUniqueLeafPoints(std::map<std::vector<int>, Point*[01;31m[K>[m[K& pointMap);
+      |                                                                              [01;31m[K^[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:72:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+   35 |     void QuadTree::generateUniqueLeafPoints(std::map<std::vector<int>, [01;31m[KPoint[m[K*>& pointMap);
+      |                                                                        [01;31m[K^~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+   35 |     void QuadTree::generateUniqueLeafPoints(std::map<std::vector<int>, Point*[01;31m[K>[m[K& pointMap);
+      |                                                                              [01;31m[K^[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:45:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   35 |     void QuadTree::generateUniqueLeafPoints([01;31m[Kstd[m[K::map<std::vector<int>, Point*>& pointMap);
+      |                                             [01;31m[K^~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:72:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+   35 |     void QuadTree::generateUniqueLeafPoints(std::map<std::vector<int>, [01;31m[KPoint[m[K*>& pointMap);
+      |                                                                        [01;31m[K^~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:78:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   35 |     void QuadTree::generateUniqueLeafPoints(std::map<std::vector<int>, Point*[01;31m[K>[m[K& pointMap);
+      |                                                                              [01;31m[K^[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:45:[m[K [01;31m[Kerror: [m[Kmissing template argument list after ‘[01m[Kstd::map[m[K’; template placeholder not permitted in parameter
+   35 |     void QuadTree::generateUniqueLeafPoints([01;31m[Kstd[m[K::map<std::vector<int>, Point*>& pointMap);
+      |                                             [01;31m[K^~~[m[K
+      |                                                [32m[K<>[m[K
+In file included from [01m[K/usr/include/c++/13/map:63[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:1[m[K:
+[01m[K/usr/include/c++/13/bits/stl_map.h:102:11:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> class std::map[m[K’ declared here
+  102 |     class [01;36m[Kmap[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KQuadTree::[m[K’ on member ‘[01m[KgenerateUniqueLeafPoints[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   35 |     void [01;31m[KQuadTree[m[K::generateUniqueLeafPoints(std::map<std::vector<int>, Point*>& pointMap);
+      |          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/quadtree.cpp:161:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid QuadTree::[01;32m[KgenerateUniqueLeafPoints[m[K(std::map<std::vector<int>, Point*>&)[m[K’
+  161 | void [01;31m[KQuadTree[m[K::generateUniqueLeafPoints(std::map<std::vector<int>, Point*>& pointMap)
+      |      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid QuadTree::[01;32m[KgenerateUniqueLeafPoints[m[K(...)[m[K’
+   35 |     void [01;36m[KQuadTree[m[K::generateUniqueLeafPoints(std::map<std::vector<int>, Point*>& pointMap);
+      |          [01;36m[K^~~~~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:8:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass QuadTree[m[K’ defined here
+    8 | class [01;36m[KQuadTree[m[K
+      |       [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:2[m[K:
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:72:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+   35 |     void QuadTree::generateUniqueLeafPoints(std::map<std::vector<int>, [01;31m[KPoint[m[K*>& pointMap);
+      |                                                                        [01;31m[K^~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+   35 |     void QuadTree::generateUniqueLeafPoints(std::map<std::vector<int>, Point*[01;31m[K>[m[K& pointMap);
+      |                                                                              [01;31m[K^[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:72:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+   35 |     void QuadTree::generateUniqueLeafPoints(std::map<std::vector<int>, [01;31m[KPoint[m[K*>& pointMap);
+      |                                                                        [01;31m[K^~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+   35 |     void QuadTree::generateUniqueLeafPoints(std::map<std::vector<int>, Point*[01;31m[K>[m[K& pointMap);
+      |                                                                              [01;31m[K^[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:72:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+   35 |     void QuadTree::generateUniqueLeafPoints(std::map<std::vector<int>, [01;31m[KPoint[m[K*>& pointMap);
+      |                                                                        [01;31m[K^~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+   35 |     void QuadTree::generateUniqueLeafPoints(std::map<std::vector<int>, Point*[01;31m[K>[m[K& pointMap);
+      |                                                                              [01;31m[K^[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:45:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   35 |     void QuadTree::generateUniqueLeafPoints([01;31m[Kstd[m[K::map<std::vector<int>, Point*>& pointMap);
+      |                                             [01;31m[K^~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:72:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope
+   35 |     void QuadTree::generateUniqueLeafPoints(std::map<std::vector<int>, [01;31m[KPoint[m[K*>& pointMap);
+      |                                                                        [01;31m[K^~~~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:78:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   35 |     void QuadTree::generateUniqueLeafPoints(std::map<std::vector<int>, Point*[01;31m[K>[m[K& pointMap);
+      |                                                                              [01;31m[K^[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:45:[m[K [01;31m[Kerror: [m[Kmissing template argument list after ‘[01m[Kstd::map[m[K’; template placeholder not permitted in parameter
+   35 |     void QuadTree::generateUniqueLeafPoints([01;31m[Kstd[m[K::map<std::vector<int>, Point*>& pointMap);
+      |                                             [01;31m[K^~~[m[K
+      |                                                [32m[K<>[m[K
+In file included from [01m[K/usr/include/c++/13/map:63[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/src/beamlet_star_node.cpp:1[m[K:
+[01m[K/usr/include/c++/13/bits/stl_map.h:102:11:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> class std::map[m[K’ declared here
+  102 |     class [01;36m[Kmap[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/zilch/LTU/Viswa/colcon_ws/src/beamlet_star_path_planner/include/beamlet_star_path_planner/quadtree.h:35:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KQuadTree::[m[K’ on member ‘[01m[KgenerateUniqueLeafPoints[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   35 |     void [01;31m[KQuadTree[m[K::generateUniqueLeafPoints(std::map<std::vector<int>, Point*>& pointMap);
+      |          [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:90: CMakeFiles/beamlet_star_node.dir/src/quadtree.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/beamlet_star_node.dir/build.make:76: CMakeFiles/beamlet_star_node.dir/src/beamlet_star_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/beamlet_star_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
